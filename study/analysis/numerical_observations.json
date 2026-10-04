@@ -1,0 +1,29 @@
+{
+  "access_date": "2026-10-04",
+  "encoding": "Pairs [count_N14, count_N01] copied from the cited edition; these are modern sign labels, not ancient phonetic readings.",
+  "target": {
+    "id": "P281711",
+    "museum_number": "Sb 06289",
+    "url": "https://cdli.earth/P281711",
+    "locator": "obverse 1",
+    "counts": [6, 2],
+    "dating": {"CDLI_BCE": [3500, 3350], "Louvre_BCE": [3100, 2600]},
+    "louvre_url": "https://collections.louvre.fr/ark:/53355/cl010180096",
+    "chronology_conflict": true
+  },
+  "arithmetic_control": {
+    "id": "P008012",
+    "museum_number": "Sb 15083",
+    "url": "https://cdli.earth/P008012",
+    "dating_BCE": [3100, 2900],
+    "role": "Later comparison; does not date or determine metrology of target",
+    "entries": [
+      {"locator": "obverse 2", "counts": [2, 2]},
+      {"locator": "obverse 3", "counts": [0, 9]},
+      {"locator": "obverse 4", "counts": [1, 8], "source_marks_damage": true},
+      {"locator": "obverse 5", "counts": [1, 6]}
+    ],
+    "total": {"locator": "reverse column 1 line 1", "counts": [6, 5]},
+    "assumptions": ["CDLI sign readings accepted, including the damaged notation in obverse 4", "Reverse line is the sum of these four entries", "Entries and total use the same unit"]
+  }
+}

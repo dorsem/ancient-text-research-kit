@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+private/
+*.sqlite*
+.build-tmp/

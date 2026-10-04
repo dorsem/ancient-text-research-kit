@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite this research kit and the original editions used for individual readings."
+title: "Ancient Text Research Kit"
+type: software
+authors:
+  - name: "dorsem"
+    website: "https://github.com/dorsem"
+version: "0.1.0"
+date-released: "2026-10-05"
+repository-code: "https://github.com/dorsem/ancient-text-research-kit"
+url: "https://dorsem.github.io/ancient-text-research-kit/"
+license:
+  - MIT
+  - CC-BY-4.0
+abstract: "Portable agent protocol and a living comparative study of early sacred evidence. MIT applies to original code and instructions; CC BY 4.0 to original research prose. See LICENSING.md for scope and third-party exclusions."

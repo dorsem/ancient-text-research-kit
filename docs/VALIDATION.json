@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-05",
+  "status": "publication_prepared",
+  "tests_passed": 19,
+  "python": "3.9.6",
+  "checks": [
+    "clean-copy build",
+    "all generated local href targets and fragments",
+    "deterministic rebuild",
+    "source/build freshness",
+    "manual HTML edit protection",
+    "malformed and dangling references",
+    "unknown locator needs reason",
+    "attributed review required for checked",
+    "source-path traversal rejection",
+    "generated-directory symlink rejection",
+    "editorial superscript preservation",
+    "O1920 42 addressed lines"
+  ],
+  "content_acceptance": {
+    "C02": "Read generated evidence view: fig14 p210 versus fig15 p211, source hypothesis versus visible overlap, limits and next check remain distinct.",
+    "C04": "Read study and linked cards: two ancient Fara copies versus two modern editions of O1920 remain distinct."
+  },
+  "limitations": [
+    "No visual browser QA of HTML; local browser access unavailable in this session. Structure, links and extracted readable content checked.",
+    "No model-independent scholarly review of all portable archive cards. Registry claims remain draft.",
+    "External URL availability is not checked by offline validator.",
+    "30-page limit remains policy; only source laboratory DOCX revision005 was rendered at10pages. Portable HTML has no fixed pagination."
+  ],
+  "source_docx": {
+    "revision": "005",
+    "pages": 10,
+    "sha256": "54bf4e26675470a42b8ccec458b2fb48750b8e57724511a3629f32984d09580f"
+  },
+  "privacy": "No source PDF, photograph, personal absolute path, API credential, Foundry implementation or local database included.",
+  "publication_authorization": "Owner approved dorsem repository and ongoing verified updates; MIT + CC BY 4.0 explicitly approved."
+}

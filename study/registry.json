@@ -1,0 +1,611 @@
+{
+  "schema_version": 1,
+  "revision": "005-portable-0.1",
+  "scope": "Navigation for C01–C06, not complete structured coverage of every archival sentence",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Чжоу Вэй, Музей Хэнани, 2017: досье панцирей Цзяху, изображения и таблица 1.",
+      "url": "https://www.chnmus.net/sitesources/hnsbwy/page_pc/dzjp/mzyp/article40312fa9d9ff4fca800c1fb824b95e37.html",
+      "independence_group": "s1",
+      "access_scope": "Музейное досье, M344:18 и M344:28, рисунки и таблица 1; объём чтения см. предметную карточку",
+      "distribution": "link_only"
+    },
+    {
+      "id": "S2",
+      "title": "Zhang et al., 1999, Nature, статья и приложение; строка BK95018/M344. Исходный датирующая таблица.",
+      "url": "https://www.nature.com/articles/43865",
+      "independence_group": "jiahu_zhang_team",
+      "access_scope": "Приложение, строка BK95018/M344 и примечания; объём чтения см. предметную карточку",
+      "distribution": "link_only"
+    },
+    {
+      "id": "S3",
+      "title": "Ye Xiangkui, Zhang Juzhong, 1994, «Turtle remains from Jiahu Site at Wuyang, Henan», Acta Anthropologica Sinica 13(1), с. 32–38 и табл. I. Полный PDF.",
+      "url": "https://www.anthropol.ac.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=715",
+      "independence_group": "jiahu_zhang_team",
+      "access_scope": "с. 32–38, табл. I; M363:13 на с. 33–34; объём чтения см. предметную карточку",
+      "distribution": "link_only"
+    },
+    {
+      "id": "S4",
+      "title": "Zhang, Xiao, Lee, 2004, «The early development of music. Analysis of the Jiahu bone flutes», Antiquity 78, с. 769–778; здесь с. 774–775. Полный PDF.",
+      "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/B3F09EEC1AFB5D16C96C0DF8301BC877/S0003598X00113432a.pdf/the-early-development-of-music-analysis-of-the-jiahu-bone-flutes.pdf",
+      "independence_group": "jiahu_zhang_team",
+      "access_scope": "с. 774–775, флейты M282:20 и M78:1; объём чтения см. предметную карточку",
+      "distribution": "link_only"
+    },
+    {
+      "id": "S5",
+      "title": "Lazarovici, Merlini, 2005, «New archaeological data refering to Tărtăria tablets», Documenta Praehistorica 32, с. 205–219, особенно 210–215. Оригинальное издание • PDF.",
+      "url": "https://doi.org/10.4312/dp.32.16",
+      "independence_group": "tartaria_lazarovici_merlini",
+      "access_scope": "с. 210, рис. 14; с. 211, рис. 15; с. 214, рис. 22; с. 215; объём чтения см. предметную карточку",
+      "distribution": "link_only"
+    },
+    {
+      "id": "S6",
+      "title": "Lazarovici, Merlini, 2016, «Tărtăria Tablets: The Latest Evidence in an Archaeological Thriller», с. 78, прим. 48; авторский полный текст. DOI: 10.1515/9783110500820-007.",
+      "url": "https://www.researchgate.net/publication/321128252_4_Tartaria_Tablets_The_Latest_Evidence_in_an_Archaeological_Thriller",
+      "independence_group": "tartaria_lazarovici_merlini",
+      "access_scope": "с. 78, прим. 48; объём чтения см. предметную карточку",
+      "distribution": "link_only"
+    },
+    {
+      "id": "S7",
+      "title": "László, 2016, «Cui bono? Thoughts about a “reconsideration” of the Tărtăria tablets», Dacia 60, с. 281–292; здесь 284, прим. 18 и 289–290. PDF.",
+      "url": "https://daciajournal.ro/pdf/dacia2016/18.pdf",
+      "independence_group": "s7",
+      "access_scope": "с. 284, прим. 18; с. 289–290; объём чтения см. предметную карточку",
+      "distribution": "link_only"
+    },
+    {
+      "id": "S8",
+      "title": "Winn, «The Old European Script. Further evidence», рис. 4 и комментарий. Вторичная прорисовка используется только как графический контроль.",
+      "url": "https://www.prehistory.it/ftp/winn4.htm",
+      "independence_group": "s8",
+      "access_scope": "рис. 4 и комментарий; объём чтения см. предметную карточку",
+      "distribution": "link_only"
+    },
+    {
+      "id": "S9",
+      "title": "MacArthur, в Visible Language, OIMP32, №71, с. 128. Издание ISAC • PDF.",
+      "url": "https://isac.uchicago.edu/publications/visible-language-inventions-writing-ancient-middle-east-and-beyond",
+      "independence_group": "s9",
+      "access_scope": "№71, с. 128; объём чтения см. предметную карточку",
+      "distribution": "link_only"
+    },
+    {
+      "id": "S10",
+      "title": "Hall, 1913, Catalogue of Egyptian Scarabs…, I, с. 289, №2765: музейный предмет 35594 и факсимиле. PDF. Allen, The Ancient Egyptian Language, 2013, §1.2, с. 2: чтение и хронологическая привязка.",
+      "url": "https://mc.dlib.nyu.edu/files/books/ifa_egypt000126/ifa_egypt000126_lo.pdf",
+      "independence_group": "s10",
+      "access_scope": "Hall 1913, с. 289, №2765; объём чтения см. предметную карточку",
+      "distribution": "link_only"
+    },
+    {
+      "id": "S11",
+      "title": "Borrego Gallardo, «Ra y el oro en los Textos de las Pirámides», Isimu 13, с. 234, прим. 8, рис. 2. Авторский полный текст.",
+      "url": "https://www.researchgate.net/publication/282328531_Ra_y_el_oro_en_los_Textos_de_las_Piramides_algunas_notas_Re_and_the_gold_in_the_Pyramid_Texts_some_remarks",
+      "independence_group": "s11",
+      "access_scope": "с. 234, прим. 8, рис. 2; объём чтения см. предметную карточку",
+      "distribution": "link_only"
+    },
+    {
+      "id": "S12",
+      "title": "Рудик, Die Entwicklung der keilschriftlichen sumerischen Beschwörungsliteratur…, онлайн 2015, FSB15–17, с. 150–160; датировки O.1920: 494, 503, 508. DNB • PDF.",
+      "url": "https://d-nb.info/1074139194/34",
+      "independence_group": "s12",
+      "access_scope": "FSB15–17, с. 150–160; датировки с. 494, 503, 508; объём чтения см. предметную карточку",
+      "distribution": "link_only"
+    },
+    {
+      "id": "S13",
+      "title": "Veldhuis, 2006, «Another Early Dynastic Incantation», CDLB 2006:2, §1–4. Оригинальная статья • PDF.",
+      "url": "https://cdli.earth/articles/cdlb/2006-2",
+      "independence_group": "s13",
+      "access_scope": "§3–4; объём чтения см. предметную карточку",
+      "distribution": "link_only"
+    },
+    {
+      "id": "S14",
+      "title": "ETCSL 4.80.2, транслитерация Кеша, перевод. Составная редакция; ранняя рукопись отдельно не коллирована.",
+      "url": "https://etcsl.orinst.ox.ac.uk/section4/c4802.htm",
+      "independence_group": "s14",
+      "access_scope": "ETCSL 4.80.2, основная последовательность и отдельные варианты; объём чтения см. предметную карточку",
+      "distribution": "link_only"
+    },
+    {
+      "id": "S15",
+      "title": "Zhang, Cui, 2013, «The Jiahu Site in the Huai River Area», с. 194–212, особенно 196, 207, 209. Авторский текст, DOI: 10.1002/9781118325698.ch10.",
+      "url": "https://www.researchgate.net/publication/278320330_The_Jiahu_Site_in_the_Huai_River_Area",
+      "independence_group": "jiahu_zhang_team",
+      "access_scope": "с. 196, 207, 209; объём чтения см. предметную карточку",
+      "distribution": "link_only"
+    }
+  ],
+  "witnesses": [
+    {
+      "id": "W_J18",
+      "inventory": "M344:18",
+      "object_date": "VII тысячелетие до н. э.; контекст",
+      "inscription_date": {
+        "status": "unknown",
+        "reason": "Отдельная дата нанесения знаков не установлена."
+      },
+      "composition_date": {
+        "status": "unknown",
+        "reason": "Возраст формулы или композиции не равен дате сохранившегося носителя."
+      },
+      "dating_basis": "S2: кость BK95018 из M344, 6630–6440; панцирь и резы отдельно не измерены."
+    },
+    {
+      "id": "W_J28",
+      "inventory": "M344:28",
+      "object_date": "VII тысячелетие до н. э.; контекст",
+      "inscription_date": {
+        "status": "unknown",
+        "reason": "Отдельная дата нанесения знаков не установлена."
+      },
+      "composition_date": {
+        "status": "unknown",
+        "reason": "Возраст формулы или композиции не равен дате сохранившегося носителя."
+      },
+      "dating_basis": "S1/S2: предметная связь с M344; отдельного измерения панциря нет."
+    },
+    {
+      "id": "W_T1",
+      "inventory": "T1 / P411",
+      "object_date": "VI тысячелетие до н. э.; условная контекстная атрибуция",
+      "inscription_date": {
+        "status": "unknown",
+        "reason": "Отдельная дата нанесения знаков не установлена."
+      },
+      "composition_date": {
+        "status": "unknown",
+        "reason": "Возраст формулы или композиции не равен дате сохранившегося носителя."
+      },
+      "dating_basis": "S5: R1631, человеческая кость 6310±65 BP; связь с предметами зависит от контекста, прямой даты нет."
+    },
+    {
+      "id": "W_T2",
+      "inventory": "T2 / P409",
+      "object_date": "VI тысячелетие до н. э.; условная контекстная атрибуция",
+      "inscription_date": {
+        "status": "unknown",
+        "reason": "Отдельная дата нанесения знаков не установлена."
+      },
+      "composition_date": {
+        "status": "unknown",
+        "reason": "Возраст формулы или композиции не равен дате сохранившегося носителя."
+      },
+      "dating_basis": "S5: R1631, человеческая кость 6310±65 BP; связь с предметами зависит от контекста, прямой даты нет."
+    },
+    {
+      "id": "W_T3",
+      "inventory": "T3 / P410",
+      "object_date": "VI тысячелетие до н. э.; условная контекстная атрибуция",
+      "inscription_date": {
+        "status": "unknown",
+        "reason": "Отдельная дата нанесения знаков не установлена."
+      },
+      "composition_date": {
+        "status": "unknown",
+        "reason": "Возраст формулы или композиции не равен дате сохранившегося носителя."
+      },
+      "dating_basis": "S5: R1631, человеческая кость 6310±65 BP; связь с предметами зависит от контекста, прямой даты нет."
+    },
+    {
+      "id": "W_NEITH",
+      "inventory": "OIM E5954",
+      "object_date": "I династия, правление Джера",
+      "inscription_date": {
+        "status": "unknown",
+        "reason": "Отдельная дата нанесения знаков не установлена."
+      },
+      "composition_date": {
+        "status": "unknown",
+        "reason": "Возраст формулы или композиции не равен дате сохранившегося носителя."
+      },
+      "dating_basis": "S9: музейный каталог, №71."
+    },
+    {
+      "id": "W_PERIBSEN",
+      "inventory": "BM EA35594",
+      "object_date": "конец II династии",
+      "inscription_date": {
+        "status": "unknown",
+        "reason": "Отдельная дата нанесения знаков не установлена."
+      },
+      "composition_date": {
+        "status": "unknown",
+        "reason": "Возраст формулы или композиции не равен дате сохранившегося носителя."
+      },
+      "dating_basis": "Hall 1913; историческая привязка Allen около 2690 до н. э."
+    },
+    {
+      "id": "W_FARA_A",
+      "inventory": "SF54 / VAT12597 / P010644",
+      "object_date": "ED IIIa, приблизительно 2600–2500 до н. э.",
+      "inscription_date": {
+        "status": "unknown",
+        "reason": "Отдельная дата нанесения знаков не установлена."
+      },
+      "composition_date": {
+        "status": "unknown",
+        "reason": "Возраст формулы или композиции не равен дате сохранившегося носителя."
+      },
+      "dating_basis": "CDLI и Rudik: корпусная и палеографическая атрибуция."
+    },
+    {
+      "id": "W_FARA_B",
+      "inventory": "TSŠ170 / Ist Š0170 / P010769",
+      "object_date": "ED IIIa, приблизительно 2600–2500 до н. э.",
+      "inscription_date": {
+        "status": "unknown",
+        "reason": "Отдельная дата нанесения знаков не установлена."
+      },
+      "composition_date": {
+        "status": "unknown",
+        "reason": "Возраст формулы или композиции не равен дате сохранившегося носителя."
+      },
+      "dating_basis": "CDLI и Rudik; первенство двух копий не установлено."
+    },
+    {
+      "id": "W_O1920",
+      "inventory": "MRAH O.1920 / P272783",
+      "object_date": "ED IIIa в CDLI; IIIa–IIIb в таблицах Rudik",
+      "inscription_date": {
+        "status": "unknown",
+        "reason": "Отдельная дата нанесения знаков не установлена."
+      },
+      "composition_date": {
+        "status": "unknown",
+        "reason": "Возраст формулы или композиции не равен дате сохранившегося носителя."
+      },
+      "dating_basis": "Палеография; место находки неизвестно."
+    },
+    {
+      "id": "W_KESH",
+      "inventory": "ETCSL 4.80.2: современная составная редакция",
+      "object_date": {
+        "status": "unknown",
+        "reason": "Это сводное издание, а не один датируемый физический предмет."
+      },
+      "inscription_date": {
+        "status": "unknown",
+        "reason": "Отдельная дата нанесения знаков не установлена."
+      },
+      "composition_date": {
+        "status": "unknown",
+        "reason": "Возраст формулы или композиции не равен дате сохранившегося носителя."
+      },
+      "dating_basis": "S14: современная редакция; ранний свидетель отдельно не коллирован."
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E_JIAHU",
+      "source_id": "S1",
+      "locator": "Предметные описания M344:18 и M344:28, рисунки и табл. 1",
+      "witness_ids": [
+        "W_J18",
+        "W_J28"
+      ],
+      "kind": "source_assertion",
+      "description": "Музей различает глазовидный знак и две черты на двух предметах. Описанный погребальный контекст не предоставляет фонетического чтения."
+    },
+    {
+      "id": "E_JDATE",
+      "source_id": "S2",
+      "locator": "Приложение: BK95018, provenance M344, notes a–g",
+      "witness_ids": [
+        "W_J18",
+        "W_J28"
+      ],
+      "kind": "source_assertion",
+      "description": "Опубликованный диапазон 6630–6440 относится к костному образцу, не непосредственно к резам на панцире."
+    },
+    {
+      "id": "E_T14",
+      "source_id": "S5",
+      "locator": "печатная с. 210, рис. 14; верхние и нижние изображения",
+      "witness_ids": [
+        "W_T1",
+        "W_T2",
+        "W_T3"
+      ],
+      "kind": "observed_fact",
+      "description": "На опубликованных видах T2 и T3 имеют отверстия. Внизу справа современное наложение закрывает часть T2; фотография не является фиксацией положения in situ."
+    },
+    {
+      "id": "E_T15",
+      "source_id": "S5",
+      "locator": "печатная с. 211, рис. 15: отдельно изображение и подпись",
+      "witness_ids": [
+        "W_T2",
+        "W_T3"
+      ],
+      "kind": "observed_fact",
+      "description": "Подпись говорит о наложении, тогда как само изображение показывает витрину; для демонстрации использован рис. 14."
+    },
+    {
+      "id": "E_TUSE",
+      "source_id": "S5",
+      "locator": "печатная с. 215: обсуждение перекрытия и сообщения",
+      "witness_ids": [
+        "W_T2",
+        "W_T3"
+      ],
+      "kind": "source_assertion",
+      "description": "Авторы предлагают интерпретацию совместного ношения и сокрытия. Это авторское объяснение; геометрия одна не устанавливает древний способ использования."
+    },
+    {
+      "id": "E_TINV",
+      "source_id": "S6",
+      "locator": "с. 78, прим. 48",
+      "witness_ids": [
+        "W_T1",
+        "W_T2",
+        "W_T3"
+      ],
+      "kind": "source_assertion",
+      "description": "Инвентарные соответствия P409/P410/P411 позволяют различать предметы при неодинаковой нумерации в других изданиях."
+    },
+    {
+      "id": "E_TCRIT",
+      "source_id": "S7",
+      "locator": "с. 284, прим. 18; с. 289–290",
+      "witness_ids": [
+        "W_T1",
+        "W_T2",
+        "W_T3"
+      ],
+      "kind": "source_assertion",
+      "description": "Обсуждаются качество публикации контекста, прорисовок и состояния поверхности; это ограничивает исторические реконструкции."
+    },
+    {
+      "id": "E_NEITH",
+      "source_id": "S9",
+      "locator": "№71, с. 128: фото, чтение и комментарий",
+      "witness_ids": [
+        "W_NEITH"
+      ],
+      "kind": "source_assertion",
+      "description": "Опубликовано имя с Нейт и объяснение почётной перестановки; русский рабочий перевод передаёт пожелание довольства богине."
+    },
+    {
+      "id": "E_PERIBSEN",
+      "source_id": "S11",
+      "locator": "с. 234, прим. 8, рис. 2",
+      "witness_ids": [
+        "W_PERIBSEN"
+      ],
+      "kind": "source_assertion",
+      "description": "Божественный эпитет Золотой входит в царскую формулу; предложены варианты глагола и отождествления божества."
+    },
+    {
+      "id": "E_FARA",
+      "source_id": "S12",
+      "locator": "FSB15, с. 150–153; A iv1–v1, B iii1–iv5",
+      "witness_ids": [
+        "W_FARA_A",
+        "W_FARA_B"
+      ],
+      "kind": "source_assertion",
+      "description": "Начальное перечисление объединяет ветры, Тигр и болезнь. В повторе A сохраняет Тигр, B болезнь; полного общего 4+4 нет в одной копии. В этом фрагменте нет имён богов."
+    },
+    {
+      "id": "E_OWIND",
+      "source_id": "S13",
+      "locator": "§3–4; obv i4–5, ii3 и контекст тела",
+      "witness_ids": [
+        "W_O1920"
+      ],
+      "kind": "source_assertion",
+      "description": "Вельдхёйс читает южный и северный ветры с глаголом поднялся и связывает дальнейший текст с телом человека."
+    },
+    {
+      "id": "E_OVARIANTS",
+      "source_id": "S12",
+      "locator": "FSB16–17, с. 154–160, особенно 156–159",
+      "witness_ids": [
+        "W_O1920"
+      ],
+      "kind": "source_assertion",
+      "description": "Рудик предлагает другую редакцию одного O.1920; расходятся DU, MA и начало оборота. Пара ветров и тело сохраняют основание для сравнения."
+    },
+    {
+      "id": "E_KESH",
+      "source_id": "S14",
+      "locator": "ETCSL 4.80.2: семь основных рефренов и восьмой раздел; отдельно варианты",
+      "witness_ids": [
+        "W_KESH"
+      ],
+      "kind": "source_assertion",
+      "description": "Сводная последовательность и альтернативные вставки не являются одним древним физическим свидетелем."
+    },
+    {
+      "id": "E_TURTLES",
+      "source_id": "S3",
+      "locator": "с. 33–34, M363:13, табл. I",
+      "witness_ids": [
+        "W_J28"
+      ],
+      "kind": "source_assertion",
+      "description": "Другой предмет даёт контроль обработки и крепления частей панциря. Это функциональная альтернатива для проверки; назначение M344:28 ею не доказано."
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "kind": "interpretation",
+      "confidence": "medium",
+      "review_status": "draft",
+      "review": null,
+      "evidence": [
+        {
+          "evidence_id": "E_JIAHU",
+          "relation": "support"
+        },
+        {
+          "evidence_id": "E_T14",
+          "relation": "support"
+        },
+        {
+          "evidence_id": "E_NEITH",
+          "relation": "support"
+        },
+        {
+          "evidence_id": "E_PERIBSEN",
+          "relation": "support"
+        },
+        {
+          "evidence_id": "E_FARA",
+          "relation": "support"
+        },
+        {
+          "evidence_id": "E_OWIND",
+          "relation": "support"
+        }
+      ],
+      "alternative": "Ритуальный контекст может относиться к функции предмета без кодирования речи.",
+      "next_check": "Проверить чтение недешифрованной группы на новых независимых надписях."
+    },
+    {
+      "id": "C02",
+      "kind": "interpretation",
+      "confidence": "medium",
+      "review_status": "draft",
+      "review": null,
+      "evidence": [
+        {
+          "evidence_id": "E_T14",
+          "relation": "support"
+        },
+        {
+          "evidence_id": "E_TINV",
+          "relation": "support"
+        },
+        {
+          "evidence_id": "E_TUSE",
+          "relation": "context"
+        },
+        {
+          "evidence_id": "E_T15",
+          "relation": "context"
+        },
+        {
+          "evidence_id": "E_TCRIT",
+          "relation": "context"
+        },
+        {
+          "evidence_id": "E_TURTLES",
+          "relation": "context"
+        }
+      ],
+      "alternative": "Независимые подвески, техническое перекрытие, хранение вместе без совместного ношения.",
+      "next_check": "Проверить ориентацию отверстий, следы крепления и износа, 3D-совместимость и датированные комплекты."
+    },
+    {
+      "id": "C03",
+      "kind": "interpretation",
+      "confidence": "medium",
+      "review_status": "draft",
+      "review": null,
+      "evidence": [
+        {
+          "evidence_id": "E_FARA",
+          "relation": "support"
+        },
+        {
+          "evidence_id": "E_OWIND",
+          "relation": "support"
+        },
+        {
+          "evidence_id": "E_OVARIANTS",
+          "relation": "support"
+        }
+      ],
+      "alternative": "Общие лексические мотивы могут принадлежать широкой традиции без прямого копирования.",
+      "next_check": "Сопоставить порядок, синтаксис и устойчивые формулы других датированных ранних заклинаний."
+    },
+    {
+      "id": "C04",
+      "kind": "interpretation",
+      "confidence": "high",
+      "review_status": "draft",
+      "review": null,
+      "evidence": [
+        {
+          "evidence_id": "E_FARA",
+          "relation": "support"
+        },
+        {
+          "evidence_id": "E_OWIND",
+          "relation": "support"
+        },
+        {
+          "evidence_id": "E_OVARIANTS",
+          "relation": "support"
+        }
+      ],
+      "alternative": "Современные разночтения одного предмета могут объясняться повреждением и редакционными решениями.",
+      "next_check": "Независимо сверить обе таблички Фары и получить качественные изображения спорных знаков O.1920."
+    },
+    {
+      "id": "C05",
+      "kind": "interpretation",
+      "confidence": "medium",
+      "review_status": "draft",
+      "review": null,
+      "evidence": [
+        {
+          "evidence_id": "E_NEITH",
+          "relation": "support"
+        },
+        {
+          "evidence_id": "E_PERIBSEN",
+          "relation": "support"
+        },
+        {
+          "evidence_id": "E_FARA",
+          "relation": "support"
+        },
+        {
+          "evidence_id": "E_OWIND",
+          "relation": "support"
+        }
+      ],
+      "alternative": "Разные функции могут сосуществовать; из выборки не следует общий канон или один институт жречества.",
+      "next_check": "Проверять классификацию на другом жанре с конкретным носителем и содержанием."
+    },
+    {
+      "id": "C06",
+      "kind": "interpretation",
+      "confidence": "medium",
+      "review_status": "draft",
+      "review": null,
+      "evidence": [
+        {
+          "evidence_id": "E_JIAHU",
+          "relation": "support"
+        },
+        {
+          "evidence_id": "E_T14",
+          "relation": "support"
+        },
+        {
+          "evidence_id": "E_FARA",
+          "relation": "support"
+        },
+        {
+          "evidence_id": "E_KESH",
+          "relation": "support"
+        }
+      ],
+      "alternative": "Сходство простых фигур и подсчётов может возникать независимо либо зависеть от современного отбора.",
+      "next_check": "Искать промежуточные датированные свидетельства и совпадение формы, функции и значения."
+    }
+  ]
+}

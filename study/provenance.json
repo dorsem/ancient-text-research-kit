@@ -1,0 +1,226 @@
+{
+  "source_revision": "005",
+  "date": "2026-10-05",
+  "files": [
+    {
+      "path": "study/corpus/Tartaria_T1_T3/analysis.md",
+      "source_sha256": "12a1937e0b9cd036b7a83fbab85b906baee64c9d82a6cb85758ea9ccaa27880f",
+      "transformation": "Author text reused; local source links mapped to publishers; image embeds replaced by links; local-only wording qualified."
+    },
+    {
+      "path": "study/corpus/Early_incantations/translation.md",
+      "source_sha256": "0bd1b85f7dff5e0ea28c6eb169671feb5aac3986c3e45a4c103ece3a0eda9699",
+      "transformation": "Author text reused; local source links mapped to publishers; image embeds replaced by links; local-only wording qualified."
+    },
+    {
+      "path": "study/corpus/Early_incantations/structure.md",
+      "source_sha256": "1f0be67b9bf8dcaef7607f3e33f11c52cac923374051eb20a5c0ee654fb11839",
+      "transformation": "Author text reused; local source links mapped to publishers; image embeds replaced by links; local-only wording qualified."
+    },
+    {
+      "path": "study/corpus/Early_incantations/sources.md",
+      "source_sha256": "c19259e363ae3ef6497654e53c258148c9f67a2ecf5c9036766d8d7669ec3865",
+      "transformation": "Author text reused; local source links mapped to publishers; image embeds replaced by links; local-only wording qualified."
+    },
+    {
+      "path": "study/corpus/Early_incantations/O1920_full_text.md",
+      "source_sha256": "695197d95219ab95071310d9e6d714e76eae8722d2ef9d5c00d30ecd51e907ca",
+      "transformation": "Author text reused; local source links mapped to publishers; image embeds replaced by links; local-only wording qualified."
+    },
+    {
+      "path": "study/corpus/Early_incantations/variants.md",
+      "source_sha256": "c416677ab3560d34f45ed60f3c6d3bddbe1abb183cdf47d41c561079015dfa62",
+      "transformation": "Author text reused; local source links mapped to publishers; image embeds replaced by links; local-only wording qualified."
+    },
+    {
+      "path": "study/corpus/Early_incantations/verification.md",
+      "source_sha256": "437ab7a7c57756e562e9ed3c7f578ee28e54bf61b512bc60ec41db36baba3381",
+      "transformation": "Author text reused; local source links mapped to publishers; image embeds replaced by links; local-only wording qualified."
+    },
+    {
+      "path": "study/corpus/Early_incantations/confidence.md",
+      "source_sha256": "152266468efee807c9c4d950de27ac13d2a715166987b737521e497ee95af2ba",
+      "transformation": "Author text reused; local source links mapped to publishers; image embeds replaced by links; local-only wording qualified."
+    },
+    {
+      "path": "study/corpus/Early_incantations/witnesses.md",
+      "source_sha256": "75c3872b9b7f24510340703f6f63188054ffce2307a23383061539b7845baca9",
+      "transformation": "Author text reused; local source links mapped to publishers; image embeds replaced by links; local-only wording qualified."
+    },
+    {
+      "path": "study/corpus/Early_incantations/transliteration.md",
+      "source_sha256": "95ab44751bf00904aba9b555e45047e63c4142dc44f9aa558cae121dde9625b1",
+      "transformation": "Author text reused; local source links mapped to publishers; image embeds replaced by links; local-only wording qualified."
+    },
+    {
+      "path": "study/corpus/Early_incantations/O1920_photo_audit.md",
+      "source_sha256": "0670ef35c9b0b8e2446941338bf52538c828f4c9e149d1dc25911de2b83d63ce",
+      "transformation": "Author text reused; local source links mapped to publishers; image embeds replaced by links; local-only wording qualified."
+    },
+    {
+      "path": "study/corpus/Fara_FSB15/translation.md",
+      "source_sha256": "e097eda2572d2e17508b3b01c4863e9177b4fa6408a55b3a53847dc2a5366fee",
+      "transformation": "Author text reused; local source links mapped to publishers; image embeds replaced by links; local-only wording qualified."
+    },
+    {
+      "path": "study/corpus/Fara_FSB15/structure.md",
+      "source_sha256": "2b7d052813f15033b72b77afef2edb3201fb284b58328d0fe78faba907037445",
+      "transformation": "Author text reused; local source links mapped to publishers; image embeds replaced by links; local-only wording qualified."
+    },
+    {
+      "path": "study/corpus/Fara_FSB15/sources.md",
+      "source_sha256": "16c777d593fa2798c5e49f56767f732bd71b45e7bdbb75064d91cc6efa4615df",
+      "transformation": "Author text reused; local source links mapped to publishers; image embeds replaced by links; local-only wording qualified."
+    },
+    {
+      "path": "study/corpus/Fara_FSB15/full_text.md",
+      "source_sha256": "a7ca88d81651f275b9a742d0d7c583a293cbb97b3d8d16fc6dc41ef7436d263f",
+      "transformation": "Author text reused; local source links mapped to publishers; image embeds replaced by links; local-only wording qualified."
+    },
+    {
+      "path": "study/corpus/Fara_FSB15/variants.md",
+      "source_sha256": "975b689fd4ee93450a26408039adbbe7cb4db40d865689e55b602124f245150f",
+      "transformation": "Author text reused; local source links mapped to publishers; image embeds replaced by links; local-only wording qualified."
+    },
+    {
+      "path": "study/corpus/Fara_FSB15/verification.md",
+      "source_sha256": "9c08cf3b4dbfeda5a13b3d600fc4b1a1b21128a14325e007e6e6983a03c1a8ab",
+      "transformation": "Author text reused; local source links mapped to publishers; image embeds replaced by links; local-only wording qualified."
+    },
+    {
+      "path": "study/corpus/Fara_FSB15/confidence.md",
+      "source_sha256": "662a753432488b2b9deba967290ef07514d601ac3353fe3c6630667ebc57764a",
+      "transformation": "Author text reused; local source links mapped to publishers; image embeds replaced by links; local-only wording qualified."
+    },
+    {
+      "path": "study/corpus/Fara_FSB15/witnesses.md",
+      "source_sha256": "0a11e8addf9ff3279f71294b66b030a392727dafec9ca66899ad6961b60275f5",
+      "transformation": "Author text reused; local source links mapped to publishers; image embeds replaced by links; local-only wording qualified."
+    },
+    {
+      "path": "study/corpus/Fara_FSB15/transliteration.md",
+      "source_sha256": "7231b1f063092cb07780b2452f49d2f14337e249b42d7e7b09a889f25c18d9a6",
+      "transformation": "Author text reused; local source links mapped to publishers; image embeds replaced by links; local-only wording qualified."
+    },
+    {
+      "path": "study/corpus/Egypt_early/witnesses.md",
+      "source_sha256": "827d3176d661b2828f3b9d812d28257f48ba87b4f24940f3f83332b7c8f96290",
+      "transformation": "Author text reused; local source links mapped to publishers; image embeds replaced by links; local-only wording qualified."
+    },
+    {
+      "path": "study/corpus/Egypt_early/early_formulas.md",
+      "source_sha256": "8964edb25fcdd333d0fd3c3aa32c8936eb7e05927396526fbf155c8e870d9e05",
+      "transformation": "Author text reused; local source links mapped to publishers; image embeds replaced by links; local-only wording qualified."
+    },
+    {
+      "path": "study/corpus/Tartaria_T2/analysis.md",
+      "source_sha256": "bdd2870b4a7bc87f9d8618eb3ed8ba2983c410127edc4e13b59bba557b287856",
+      "transformation": "Author text reused; local source links mapped to publishers; image embeds replaced by links; local-only wording qualified."
+    },
+    {
+      "path": "study/corpus/Tartaria_T2/dating.md",
+      "source_sha256": "0146ebe7b3fdf810e4f7f5c3db4a0d5a139d70a4b9eba6faa39222b7834d7291",
+      "transformation": "Author text reused; local source links mapped to publishers; image embeds replaced by links; local-only wording qualified."
+    },
+    {
+      "path": "study/corpus/Jiahu_M34418/structure.md",
+      "source_sha256": "40d32f8a162524ec5da75d4d46ee04d345aec6e2b03a054054ffa7edb5c705fd",
+      "transformation": "Author text reused; local source links mapped to publishers; image embeds replaced by links; local-only wording qualified."
+    },
+    {
+      "path": "study/corpus/Jiahu_M34418/hypotheses.md",
+      "source_sha256": "fdb5ede1e699bacac73957b26cff1e777edce321b1a201863b9f57f1749094c2",
+      "transformation": "Author text reused; local source links mapped to publishers; image embeds replaced by links; local-only wording qualified."
+    },
+    {
+      "path": "study/corpus/Jiahu_M34418/sources.md",
+      "source_sha256": "6e9d2e4c2c17e61ce10ed9025db99ec46c14cef13e896c3066444a8b49d33983",
+      "transformation": "Author text reused; local source links mapped to publishers; image embeds replaced by links; local-only wording qualified."
+    },
+    {
+      "path": "study/corpus/Jiahu_M34418/verification.md",
+      "source_sha256": "7879271293e9a4dcbebfe9d0ce1d3842a92709d930a3ab664d469fc7c95981d0",
+      "transformation": "Author text reused; local source links mapped to publishers; image embeds replaced by links; local-only wording qualified."
+    },
+    {
+      "path": "study/corpus/Jiahu_M34418/dating.md",
+      "source_sha256": "0225052754e156fa3753ff88c3bab622622ba5eb1b61afe03d66b42b668caf2d",
+      "transformation": "Author text reused; local source links mapped to publishers; image embeds replaced by links; local-only wording qualified."
+    },
+    {
+      "path": "study/corpus/Jiahu_M34418/witnesses.md",
+      "source_sha256": "29d0d63fd18fb4d53d2d66f4ea577712b0ec8d01daf984b643dad03ee22610e2",
+      "transformation": "Author text reused; local source links mapped to publishers; image embeds replaced by links; local-only wording qualified."
+    },
+    {
+      "path": "study/corpus/Jiahu_M34418/reading.md",
+      "source_sha256": "6eb5fac5de78ce9b6bf285a39003b61bd3a57624e44820b47fe8e111ec81b78d",
+      "transformation": "Author text reused; local source links mapped to publishers; image embeds replaced by links; local-only wording qualified."
+    },
+    {
+      "path": "study/corpus/Jiahu_M34428/analysis.md",
+      "source_sha256": "7c799c28cb87adeb2c6f78da228c9d7bb995e6a48f9962b87d538ad45aca1fb0",
+      "transformation": "Author text reused; local source links mapped to publishers; image embeds replaced by links; local-only wording qualified."
+    },
+    {
+      "path": "study/corpus/Susa_P281711/translation.md",
+      "source_sha256": "3e92b1819530581971a3002eaf51dfc8c1819430fb60eb42fccc2f7078d0d9ad",
+      "transformation": "Author text reused; local source links mapped to publishers; image embeds replaced by links; local-only wording qualified."
+    },
+    {
+      "path": "study/corpus/Susa_P281711/structure.md",
+      "source_sha256": "d03bcfc22a1e50148ea72f7f09717e3862ecb36774a849b1f31a1b0f8c7c1ab0",
+      "transformation": "Author text reused; local source links mapped to publishers; image embeds replaced by links; local-only wording qualified."
+    },
+    {
+      "path": "study/corpus/Susa_P281711/sources.md",
+      "source_sha256": "933b0506f73182231a1301ecd863f4bec4b3d46f6a6cdc8859630b1dcc1b33e4",
+      "transformation": "Author text reused; local source links mapped to publishers; image embeds replaced by links; local-only wording qualified."
+    },
+    {
+      "path": "study/corpus/Susa_P281711/variants.md",
+      "source_sha256": "681f085aa1ad616f5ac86ff36a098ed9b569a43ebb9f138545eeb937ac81f59a",
+      "transformation": "Author text reused; local source links mapped to publishers; image embeds replaced by links; local-only wording qualified."
+    },
+    {
+      "path": "study/corpus/Susa_P281711/confidence.md",
+      "source_sha256": "c46d665c3d2a94c24d52f5174b1732e4a10fcb74f711825129e7dec7a19b11d7",
+      "transformation": "Author text reused; local source links mapped to publishers; image embeds replaced by links; local-only wording qualified."
+    },
+    {
+      "path": "study/corpus/Susa_P281711/witnesses.md",
+      "source_sha256": "9252794f410287620c85ad526acd1fedfa21ba48603cefce04893cca85792bf0",
+      "transformation": "Author text reused; local source links mapped to publishers; image embeds replaced by links; local-only wording qualified."
+    },
+    {
+      "path": "study/corpus/Susa_P281711/transliteration.md",
+      "source_sha256": "8541f80b722a3b9f814947ab533d007b1dcd5c96434d366030b962fc8b02a94b",
+      "transformation": "Author text reused; local source links mapped to publishers; image embeds replaced by links; local-only wording qualified."
+    },
+    {
+      "path": "study/reports/main_research.md",
+      "source_sha256": "05fcc7e4e84d4c9dd647ddb1c377f23fff6b94fc123d3cfde6a31e6ef3fd343d",
+      "transformation": "Author text reused; local source links mapped to publishers; image embeds replaced by links; local-only wording qualified."
+    },
+    {
+      "path": "study/reports/chronology.md",
+      "source_sha256": "f68bbf27f253093d28bfd2cdfcd72db683e2d00a9f6fd4bde95d6a7967cac1bf",
+      "transformation": "Author text reused; local source links mapped to publishers; image embeds replaced by links; local-only wording qualified."
+    },
+    {
+      "path": "study/reports/background_numerical_readings.md",
+      "source_sha256": "79683ad7af545bd8f6b5a8b21eaeac8247193c455c30ad2aa401ce1439df2d11",
+      "transformation": "Author text reused; local source links mapped to publishers; image embeds replaced by links; local-only wording qualified."
+    },
+    {
+      "path": "study/reports/background_writing_chronology.md",
+      "source_sha256": "6a1245ed48549ded63d4e3c3a5aa082dd8762f54658f266a7f22eddf9f340a92",
+      "transformation": "Author text reused; local source links mapped to publishers; image embeds replaced by links; local-only wording qualified."
+    },
+    {
+      "path": "study/reports/patterns.md",
+      "source_sha256": "f9b467802c1a13d55dcf09a371a487956b6199f779bf0bf42dd4996856e7ea13",
+      "transformation": "Author text reused; local source links mapped to publishers; image embeds replaced by links; local-only wording qualified."
+    }
+  ]
+}

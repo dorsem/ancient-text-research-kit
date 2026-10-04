@@ -1,0 +1,41 @@
+{
+  "control_id": "P008012",
+  "equation": "4r + 25 = 6r + 5",
+  "derived_N14_to_N01_ratio": "10",
+  "assumptions": [
+    "CDLI sign readings accepted, including the damaged notation in obverse 4",
+    "Reverse line is the sum of these four entries",
+    "Entries and total use the same unit"
+  ],
+  "comparisons": [
+    {
+      "N14_in_N01_units": 6,
+      "control_entry_values": [
+        14,
+        9,
+        14,
+        12
+      ],
+      "control_sum": 49,
+      "control_written_total": 41,
+      "control_difference": 8,
+      "control_balances": false,
+      "conditional_target_value_in_N01_units": 38
+    },
+    {
+      "N14_in_N01_units": 10,
+      "control_entry_values": [
+        22,
+        9,
+        18,
+        16
+      ],
+      "control_sum": 65,
+      "control_written_total": 65,
+      "control_difference": 0,
+      "control_balances": true,
+      "conditional_target_value_in_N01_units": 62
+    }
+  ],
+  "interpretation_limit": "The control identifies r=10 only for this control under its assumptions. Neither the numerical system nor the commodity of P281711 follows from this alone."
+}

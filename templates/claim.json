@@ -1,0 +1,10 @@
+{
+  "id": "C_NEW",
+  "kind": "hypothesis",
+  "confidence": "unknown",
+  "review_status": "draft",
+  "review": null,
+  "evidence": [],
+  "alternative": "Заполнить конкурирующее объяснение",
+  "next_check": "Заполнить наблюдение, способное изменить вывод"
+}
