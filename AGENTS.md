@@ -13,7 +13,7 @@ Each cycle must let a reader understand what was learned, which evidence support
 3. Identify the physical object, inventory, surface, column and line. Distinguish object, ancient copy, modern edition, composite text and translation. Each image needs provenance and a stated transformation history.
 4. For a text, supply a facsimile or exact source link, the complete available reading of the selected witness or explicitly bounded excerpt, a Russian line-by-line translation, editorial restoration marks and variants. Name the source language and any intermediary translation. Never fill a damaged sign silently. Unicode signs are not facsimiles.
 5. For an undeciphered object, analyse visible marks, structure, manufacture and context. Propose testable partial readings. Keep graphic, numeric, functional, lexical and phonetic hypotheses distinct. Do not invent a fluent translation.
-6. Sacred classification needs a stated basis: wording, formula, image, context or hypothesis. A burial or temple findspot alone is insufficient. Treat living traditions respectfully.
+6. Classification as religious or ritual evidence needs a stated basis: wording, formula, image, context or hypothesis. A burial or temple findspot alone is insufficient. Treat living traditions respectfully.
 
 ## Reasoning and challenge
 
@@ -36,3 +36,7 @@ Keep keys, private correspondence, local databases and personal paths out of the
 ## Publication authorization for this project
 
 The owner authorized publication to dorsem/ancient-text-research-kit and future updates as the research changes on 2026-10-05. MIT for original code/instructions and CC BY 4.0 for original research prose were explicitly approved. Continue ordinary verified updates within that scope without asking for publication permission each time. Preserve third-party exclusions. The canonical synthesis is study/reports/main_research.md in this repository. The default branch is dorsem/main; Pages deployment follows successful checks. New destinations, license changes, costs and private materials remain outside this standing authorization.
+
+## Public terminology
+
+Use neutral, concrete wording in public titles and prose: ancient texts, religious ideas, ritual practices, source readings and historical context. The research still focuses on early religious and ritual evidence. Preserve original-language readings, translations and verbatim source quotations; do not alter them to fit editorial terminology.

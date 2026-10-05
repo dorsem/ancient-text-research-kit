@@ -5,11 +5,11 @@ type: software
 authors:
   - name: "dorsem"
     website: "https://github.com/dorsem"
-version: "0.1.0"
+version: "0.1.1"
 date-released: "2026-10-05"
 repository-code: "https://github.com/dorsem/ancient-text-research-kit"
 url: "https://dorsem.github.io/ancient-text-research-kit/"
 license:
   - MIT
   - CC-BY-4.0
-abstract: "Portable agent protocol and a living comparative study of early sacred evidence. MIT applies to original code and instructions; CC BY 4.0 to original research prose. See LICENSING.md for scope and third-party exclusions."
+abstract: "Portable agent protocol and a living comparative study of ancient texts and ritual practices. MIT applies to original code and instructions; CC BY 4.0 to original research prose. See LICENSING.md for scope and third-party exclusions."

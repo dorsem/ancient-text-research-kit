@@ -1,6 +1,6 @@
 # Ancient Text Research Kit
 
-Открываемая локально лаборатория для исследования древних сакральных свидетельств: метод, инструкции агенту и пополняемое исследование на русском языке. Рабочая исследовательская редакция 0.1.0, 5 октября 2026.
+Открываемая локально лаборатория для изучения древних текстов и ритуальных практик: метод, инструкции агенту и пополняемое исследование на русском языке. Рабочая исследовательская редакция 0.1.1, 5 октября 2026.
 
 [Читать на сайте](https://dorsem.github.io/ancient-text-research-kit/) · [Важные выводы и основания](https://dorsem.github.io/ancient-text-research-kit/evidence.html) · [Репозиторий](https://github.com/dorsem/ancient-text-research-kit)
 
@@ -41,4 +41,4 @@ python3 -m unittest discover -s tests -v
 
 ## English quick start
 
-A portable, Russian-language research example and agent protocol for early sacred evidence. Read the study, run the three commands above, or give AGENTS.md to your own agent. New interpretations require source locations, alternatives, and an explicit review record. Code and agent instructions are MIT; original research text is CC BY 4.0, with third-party material excluded from that grant. GitHub Pages rebuilds after validated changes to the default branch. No autonomous literature monitoring is included.
+A portable, Russian-language research example and agent protocol for ancient texts and ritual practices. Read the study, run the three commands above, or give AGENTS.md to your own agent. New interpretations require source locations, alternatives, and an explicit review record. Code and agent instructions are MIT; original research text is CC BY 4.0, with third-party material excluded from that grant. GitHub Pages rebuilds after validated changes to the default branch. No autonomous literature monitoring is included.
