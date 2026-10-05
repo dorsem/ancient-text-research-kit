@@ -35,7 +35,7 @@ Keep keys, private correspondence, local databases and personal paths out of the
 
 ## Publication authorization for this project
 
-The owner authorized publication to dorsem/ancient-text-research-kit and future updates as the research changes on 2026-10-05. MIT for original code/instructions and CC BY 4.0 for original research prose were explicitly approved. Continue ordinary verified updates within that scope without asking for publication permission each time. Preserve third-party exclusions. The canonical synthesis is study/reports/main_research.md in this repository. The default branch is dorsem/main; Pages deployment follows successful checks. New destinations, license changes, costs and private materials remain outside this standing authorization.
+The owner authorized publication to dorsem/ancient-text-research-kit and future updates as the research changes on 2026-10-05. MIT for original code/instructions and CC BY 4.0 for original research prose were explicitly approved. Continue ordinary verified updates within that scope without asking for publication permission each time. After each completed verified research cycle, push the update and verify successful Pages deployment and the live changed content; the owner reiterated this instruction on 2026-10-05. Preserve third-party exclusions. The canonical synthesis is study/reports/main_research.md in this repository. The default branch is dorsem/main; Pages deployment follows successful checks. New destinations, license changes, costs and private materials remain outside this standing authorization.
 
 ## Public terminology
 

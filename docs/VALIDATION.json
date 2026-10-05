@@ -19,14 +19,16 @@
   ],
   "content_acceptance": {
     "C02": "Read generated evidence view: fig14 p210 versus fig15 p211, source hypothesis versus visible overlap, limits and next check remain distinct.",
-    "C04": "Read study and linked cards: two ancient Fara copies versus two modern editions of O1920 remain distinct.",
-    "Gradeshnitsa": "Institutional inventory, context, two published surface views, replica metadata, and limits of Gaida/Merlini interpretations traced in new card and C01/C02/C06. Source review by a separate AI agent; not human or fully blind review."
+    "C04": "Read study and linked cards: two ancient Fara copies versus two modern editions of O1920 remain distinct. Karanovo adds uncertain segmentation before linguistic reading; not equated with competing Sumerian readings.",
+    "Gradeshnitsa": "Institutional inventory, context, two published surface views, replica metadata, and limits of Gaida/Merlini interpretations traced in new card and C01/C02/C06. Source review by a separate AI agent; not human or fully blind review.",
+    "Karanovo": "Read original figures3a–b and segmentation discussion, new card, main study and comparison. Matrix/impression, fields/signs, context/object dates distinguished; unknown inventory explicit. Separate AI source review, not fully blind or human approval."
   },
   "limitations": [
     "No model-independent scholarly review of all portable archive cards. Registry claims remain draft.",
     "External URL availability is not checked by offline validator.",
-    "The 13-page measurement applies to the linked-image portable synthesis in the documented renderer; pagination can vary with browser and fonts.",
-    "Gradeshnitsa: original excavation photos 68-69 not obtained; exterior web photograph has incomplete provenance. No established linguistic translation."
+    "The 15-page measurement applies to the linked-image portable synthesis in the documented renderer; pagination can vary with browser and fonts.",
+    "Gradeshnitsa: original excavation photos 68-69 not obtained; exterior web photograph has incomplete provenance. No established linguistic translation.",
+    "Karanovo: individual museum inventory and direct object dating not obtained; two level numberings retained. No established language, translation, matched ancient impression or proven ritual function. Modern photo provenance incomplete."
   ],
   "source_docx": {
     "revision": "005",
@@ -35,32 +37,49 @@
   },
   "privacy": "No source PDF, photograph, personal absolute path, API credential, Foundry implementation or local database included.",
   "publication_authorization": "Owner approved dorsem repository and ongoing verified updates; MIT + CC BY 4.0 explicitly approved.",
-  "revision": "006",
-  "version": "0.1.2",
+  "revision": "007",
+  "version": "0.1.3",
   "pagination": {
-    "revision": "006",
+    "revision": "007",
     "renderer": "WeasyPrint 66.0",
     "format": "A4, 18 mm margins, body 11 pt, table 9.5 pt; repository print CSS",
-    "pages": 13,
+    "pages": 15,
     "max_pages": 30,
     "within_limit": true,
     "source": "study/reports/main_research.md",
-    "source_sha256": "81a6a6c52ee018ca2931d934539fb21935dce99ae6c969417f0e4127721c7fae",
+    "source_sha256": "93650eff6f3d32ce54239bfb9f0e01ecece3c0af15c07023235f65f339c7b339",
     "html": "site/study/reports/main_research.html",
-    "html_sha256": "9344864ef8b96a3949682db9e3b97123e1bbde41bd12cea61b65004d5b4ee5de",
-    "qa_pdf_sha256": "3220420215aaa8644ed3edc577776a64fd8ec353e355ddfb54e6cf75ea46998c",
-    "scope": "Main synthesis including reference list and figure captions/links; external pictures and detailed witness cards are not embedded. PDF used for QA, not distributed.",
-    "visual_review": "All 13 pages on rendered contact sheets; full-size inspection of the Gradeshnitsa text and comparative table. No clipped text or overlapping content observed."
+    "html_sha256": "f19d69691024d826417a0aeaf925f224d9e08ca84c6c3e8a8ddb1be9dd09b402",
+    "qa_pdf_sha256": "a612d207053970c35e937a090879276240902bf6a576d0c7a2b7b6f647044b1a",
+    "scope": "Main synthesis including references and image captions/links; external pictures and detailed witness cards not embedded. PDF used for QA, not distributed.",
+    "visual_review": "All15 pages on contact sheets; full-size pages9 and13 covering new Karanovo section and comparative table. No clipped text or overlapping content observed."
   },
   "previous_remote_checks": {
-    "run": "https://github.com/dorsem/ancient-text-research-kit/actions/runs/37246265891",
-    "commit": "ab2f24f4106bbfe3750c19b3b75582651475b966",
+    "run": "https://github.com/dorsem/ancient-text-research-kit/actions/runs/37249114627",
+    "commit": "a2c1a73842480d1191d37b88214545c2b2d9c607",
     "python_versions": [
       "3.9",
       "3.12"
     ],
     "result": "success including Pages deployment",
-    "scope": "Historical verification of earlier release, not the current revision."
+    "scope": "Historical verification of revision006, not current007."
   },
-  "previous_browser_check": "Published homepage and main study opened through the live browser; top viewports visually inspected. Full local link coverage tested. Not all long-page viewports were visually reviewed."
+  "previous_browser_check": "Revision006 live main study and Gradeshnitsa card verified. Current007 publication must be checked after push; local main-study render reviewed as recorded above.",
+  "previous_pagination": [
+    {
+      "revision": "006",
+      "renderer": "WeasyPrint 66.0",
+      "format": "A4, 18 mm margins, body 11 pt, table 9.5 pt; repository print CSS",
+      "pages": 13,
+      "max_pages": 30,
+      "within_limit": true,
+      "source": "study/reports/main_research.md",
+      "source_sha256": "81a6a6c52ee018ca2931d934539fb21935dce99ae6c969417f0e4127721c7fae",
+      "html": "site/study/reports/main_research.html",
+      "html_sha256": "9344864ef8b96a3949682db9e3b97123e1bbde41bd12cea61b65004d5b4ee5de",
+      "qa_pdf_sha256": "3220420215aaa8644ed3edc577776a64fd8ec353e355ddfb54e6cf75ea46998c",
+      "scope": "Main synthesis including reference list and figure captions/links; external pictures and detailed witness cards are not embedded. PDF used for QA, not distributed.",
+      "visual_review": "All 13 pages on rendered contact sheets; full-size inspection of the Gradeshnitsa text and comparative table. No clipped text or overlapping content observed."
+    }
+  ]
 }

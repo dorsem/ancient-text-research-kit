@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-05",
+  "role": "main_agent",
+  "search_batches": [
+    {
+      "queries": [
+        "Karanovo seal stamp inscription archaeological museum inventory Karanovo VI",
+        "Карановски печат инвентарен музей надпис"
+      ],
+      "purpose": "Initial primary-source discovery"
+    },
+    {
+      "queries": [
+        "site.naim.bg Караново печат",
+        "\"Karanovo\" \"seal\" \"inventory\"",
+        "\"A Chalcolithic Stamp Seal\" Georgiev 1969"
+      ],
+      "purpose": "Institutional identification and first edition"
+    },
+    {
+      "queries": [
+        "\"10.2478/actatr-2025-0002\"",
+        "\"A few remarks concerning the clay stamp-seals\" pdf",
+        "\"Karanovo\" \"19134\""
+      ],
+      "purpose": "Publication and object identity checks"
+    },
+    {
+      "queries": [
+        "Georgiev \"Un sceau inscrit\" 1969 pdf",
+        "\"Надписът\" \"Караново\" \"1969\" pdf"
+      ],
+      "purpose": "Original edition and segmentation of signs"
+    }
+  ],
+  "scope": "Exact main-agent search strings; source openings and failed access documented separately.",
+  "reviewer": {
+    "role": "separate_ai_source_review",
+    "queries": [
+      "site.naim.bg Караново печат",
+      "site.museum-novazagora.org Караново печат",
+      "Georgiev Georgiev 1969 Karanovo Siegel Schriftzeichen",
+      "\"Надписът\" \"Караново\" \"1969\" археология pdf",
+      "\"Karanovo\" \"seal\" \"inventory\"",
+      "\"A Chalcolithic stamp seal from Karanovo\"",
+      "\"Karanovo\" \"19134\"",
+      "\"Georgiev\" \"Un sceau inscrit\"",
+      "site.naim.bg \"1969\" \"1\" \"Археология\"",
+      "\"Караново\" \"19134\""
+    ],
+    "note": "Bibliographic pointers and primary-source access shared; no access to main synthesis. Not fully blind or human review."
+  }
+}

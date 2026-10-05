@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": "006-gradeshnitsa-0.1.2",
+  "revision": "007-karanovo-0.1.3",
   "scope": "Navigation for C01–C06, not complete structured coverage of every archival sentence",
   "sources": [
     {
@@ -194,6 +194,54 @@
       "independence_group": "gaid-method",
       "access_scope": "Описание нормализации, направления и правил чтения; предложенный перевод",
       "distribution": "link_only"
+    },
+    {
+      "id": "S25",
+      "title": "Миков, Г. Ил. Георгиев, В. И. Георгиев, 1969: Надписът върху кръглия печат от Караново…",
+      "url": "https://publications.naim.bg/index.php/archaeology/article/download/495/390/714",
+      "independence_group": "karanovo-excavation-record",
+      "access_scope": "Печатные с.7–8,10–11; рис.3; с.4–13 на контактных листах; детали доступа в предметном аудите",
+      "distribution": "link_only"
+    },
+    {
+      "id": "S26",
+      "title": "НАИМ-БАН: Зала Праистория",
+      "url": "https://naim.bg/bg/content/category/300/73/expo/38/",
+      "independence_group": "karanovo-naim-display",
+      "access_scope": "Основной текст, абзац экспозиции Караново; индивидуального инвентаря нет",
+      "distribution": "link_only"
+    },
+    {
+      "id": "S27",
+      "title": "Исторический музей Нова Загора: Селищна могила Караново",
+      "url": "https://museumnz.com/obekti/karanovo",
+      "independence_group": "karanovo-museum-periodization",
+      "access_scope": "Основной текст в браузере; периодизация Караново V–VI, не дата самой печати",
+      "distribution": "link_only"
+    },
+    {
+      "id": "S28",
+      "title": "Makkay 1971: A Chalcolithic Stamp Seal from Karanovo, Bulgaria",
+      "url": "https://doi.org/10.1515/kadm.1971.10.1.1",
+      "independence_group": "karanovo-excavation-record",
+      "access_scope": "Текст с.1–9 в репродукции Scribd, иллюстрации отдельно не просмотрены; контекст зависим от S25, сравнительная критика авторская",
+      "distribution": "link_only"
+    },
+    {
+      "id": "S29",
+      "title": "Ștefan 2009: A few remarks concerning the clay stamp-seals from the Gumelniţa culture",
+      "url": "https://www.researchgate.net/publication/371761481_A_few_remarks_concerning_the_clay_stamp-seals_from_the_Gumelnita_culture",
+      "independence_group": "karanovo-excavation-record",
+      "access_scope": "Релевантные фрагменты с.151–153 авторской загрузки; контекст через Makkay1984, не независимые раскопки",
+      "distribution": "link_only"
+    },
+    {
+      "id": "S30",
+      "title": "Karanovo-sramp.jpg: опубликованный цветной вид",
+      "url": "https://commons.wikimedia.org/wiki/File:Karanovo-sramp.jpg",
+      "independence_group": "karanovo-photo-unresolved",
+      "access_scope": "Полный снимок875×868, описание и метаданные; цепочка происхождения ограничена",
+      "distribution": "link_only"
     }
   ],
   "witnesses": [
@@ -367,6 +415,23 @@
         "reason": "Языковое содержание и существование словесной композиции не установлены."
       },
       "dating_basis": "S17, PDF-с.2–3: жилище 1, горизонт B; S20,с. 142: 4900–4800, не лабораторная дата."
+    },
+    {
+      "id": "W_KAR",
+      "inventory": {
+        "status": "unknown",
+        "reason": "Индивидуальная карточка НАИМ-БАН не получена; привязка к S25, рис.3а–б. №121 — позиция каталога, №19134 не подтверждён."
+      },
+      "object_date": "V тысячелетие до н.э.; поздний энеолит, Караново VI; широкая контекстная дата",
+      "inscription_date": {
+        "status": "unknown",
+        "reason": "Резы отдельно не датированы."
+      },
+      "composition_date": {
+        "status": "not_applicable",
+        "reason": "Языковая композиция не установлена."
+      },
+      "dating_basis": "S25,с.7–8: Караново VI; S27: современная музейная периодизация V–VI. Нет прямой лабораторной даты вещи; старые абсолютные даты не объединены с современной шкалой."
     }
   ],
   "evidence": [
@@ -610,6 +675,86 @@
       ],
       "kind": "source_assertion",
       "description": "Метод сопоставляет обработанные знаки с египетским письмом и переносит его правила чтения."
+    },
+    {
+      "id": "E_KAR_CONTEXT",
+      "source_id": "S25",
+      "locator": "с.7–8 / PDF9–10",
+      "witness_ids": [
+        "W_KAR"
+      ],
+      "kind": "source_assertion",
+      "description": "Сгоревшее жилище северо-восточного сектора, Караново VI. Седьмой уровень у Микова и третий сверху у Г.Ил.Георгиева сохранены без непроверенного согласования."
+    },
+    {
+      "id": "E_KAR_MATRIX",
+      "source_id": "S25",
+      "locator": "с.7–8, рис.3а–б",
+      "witness_ids": [
+        "W_KAR"
+      ],
+      "kind": "source_assertion",
+      "description": "Показаны сторона с ручкой и резная нижняя поверхность самой печати, не оттиск; описаны размеры и форма."
+    },
+    {
+      "id": "E_KAR_LAYOUT",
+      "source_id": "S30",
+      "locator": "Полный вид875×868; Description и Metadata",
+      "witness_ids": [
+        "W_KAR"
+      ],
+      "kind": "observed_fact",
+      "description": "На опубликованном виде пересекающиеся линии и четыре поля с группами резов; видимые группы не определяют границы слов. Происхождение снимка ограничено."
+    },
+    {
+      "id": "E_KAR_SEG",
+      "source_id": "S25",
+      "locator": "с.11 / PDF13, разделIII В.И.Георгиева",
+      "witness_ids": [
+        "W_KAR"
+      ],
+      "kind": "source_assertion",
+      "description": "Предложены17/18 знаков; признаны неясные границы и невозможность дешифровки по имевшемуся материалу. Направление и поворот являются интерпретациями автора."
+    },
+    {
+      "id": "E_KAR_CHRON",
+      "source_id": "S27",
+      "locator": "Абзац периодизации: КарановоV–VI",
+      "witness_ids": [
+        "W_KAR"
+      ],
+      "kind": "source_assertion",
+      "description": "КарановоV–VI отнесены к Vтысячелетию; это широкая дата слоя, не прямое измерение печати."
+    },
+    {
+      "id": "E_KAR_MUSEUM",
+      "source_id": "S26",
+      "locator": "Основной текст, абзац экспозиции Караново",
+      "witness_ids": [
+        "W_KAR"
+      ],
+      "kind": "source_assertion",
+      "description": "Карановская печать перечислена среди экспонатов; индивидуальный инвентарь и языковое чтение не даны."
+    },
+    {
+      "id": "E_KAR_ALTERNATIVE",
+      "source_id": "S28",
+      "locator": "с.3–4 и7–9",
+      "witness_ids": [
+        "W_KAR"
+      ],
+      "kind": "source_assertion",
+      "description": "Маккай оспаривает сегментацию и предлагает сравнение композиции с изображениями и орнаментами штамповых печатей; передача с Востока не установлена этим исследованием."
+    },
+    {
+      "id": "E_KAR_STAMPS",
+      "source_id": "S29",
+      "locator": "с.151–153, Караново и обсуждение функций",
+      "witness_ids": [
+        "W_KAR"
+      ],
+      "kind": "source_assertion",
+      "description": "Контекст Караново цитируется через Makkay1984,№121. Версии использования печатей на теле или недолговечных материалах не устанавливают функцию данного экземпляра."
     }
   ],
   "claims": [
@@ -654,6 +799,18 @@
         },
         {
           "evidence_id": "E_GRAD_GAID",
+          "relation": "context"
+        },
+        {
+          "evidence_id": "E_KAR_CONTEXT",
+          "relation": "context"
+        },
+        {
+          "evidence_id": "E_KAR_SEG",
+          "relation": "support"
+        },
+        {
+          "evidence_id": "E_KAR_STAMPS",
           "relation": "context"
         }
       ],
@@ -710,10 +867,22 @@
         {
           "evidence_id": "E_GRAD_ORIENTATION",
           "relation": "context"
+        },
+        {
+          "evidence_id": "E_KAR_MATRIX",
+          "relation": "support"
+        },
+        {
+          "evidence_id": "E_KAR_LAYOUT",
+          "relation": "support"
+        },
+        {
+          "evidence_id": "E_KAR_STAMPS",
+          "relation": "context"
         }
       ],
-      "alternative": "Независимые подвески, техническое перекрытие, хранение вместе без совместного ношения. Для Градешницы: орнаментальная или эмблематическая композиция без записи речи.",
-      "next_check": "Проверить ориентацию отверстий, следы крепления и износа, 3D-совместимость и датированные комплекты. Для Градешницы: Николов 1974, фотографии 68–69, затем парная съёмка сторон и каналов отверстий."
+      "alternative": "Независимые подвески, техническое перекрытие, хранение вместе без совместного ношения. Для Градешницы: орнаментальная или эмблематическая композиция без записи речи. Для Караново: композиция могла выполнять иную функцию без штампования; материал переноса неизвестен.",
+      "next_check": "Проверить ориентацию отверстий, следы крепления и износа, 3D-совместимость и датированные комплекты. Для Градешницы: Николов 1974, фотографии 68–69, затем парная съёмка сторон и каналов отверстий. Для Караново: древний оттиск с совпадающими индивидуальными особенностями, следы пигмента или износа."
     },
     {
       "id": "C03",
@@ -756,10 +925,18 @@
         {
           "evidence_id": "E_OVARIANTS",
           "relation": "support"
+        },
+        {
+          "evidence_id": "E_KAR_SEG",
+          "relation": "support"
+        },
+        {
+          "evidence_id": "E_KAR_ALTERNATIVE",
+          "relation": "support"
         }
       ],
-      "alternative": "Современные разночтения одного предмета могут объясняться повреждением и редакционными решениями.",
-      "next_check": "Независимо сверить обе таблички Фары и получить качественные изображения спорных знаков O.1920."
+      "alternative": "Современные разночтения одного предмета могут объясняться повреждением и редакционными решениями. У Караново спор касается предшествующего уровня — границ единиц и языкового характера композиции.",
+      "next_check": "Независимо сверить обе таблички Фары и получить качественные изображения спорных знаков O.1920. Для Караново: зафиксировать конкурирующие сегментации и проверить их на независимой серии."
     },
     {
       "id": "C05",
@@ -822,10 +999,22 @@
         {
           "evidence_id": "E_GRAD_GAID",
           "relation": "context"
+        },
+        {
+          "evidence_id": "E_KAR_LAYOUT",
+          "relation": "support"
+        },
+        {
+          "evidence_id": "E_KAR_SEG",
+          "relation": "support"
+        },
+        {
+          "evidence_id": "E_KAR_ALTERNATIVE",
+          "relation": "support"
         }
       ],
       "alternative": "Сходство простых фигур и подсчётов может возникать независимо либо зависеть от современного отбора.",
-      "next_check": "Искать промежуточные датированные свидетельства и совпадение формы, функции и значения. Лунная гипотеза Градешницы требует заранее заданных соответствий и проверки на независимой серии."
+      "next_check": "Искать промежуточные датированные свидетельства и совпадение формы, функции и значения. Лунная гипотеза Градешницы требует заранее заданных соответствий и проверки на независимой серии. Для Караново: не отождествлять четыре поля с четырьмя словами; проверить повторяемость единиц и правил сочетания."
     }
   ]
 }

@@ -251,6 +251,31 @@
       ],
       "images": "Link only; no retouching or generated marks; exterior image provenance remains incomplete.",
       "prior_files_note": "The files array records the initial import from revision005, not hashes of later edited files."
+    },
+    {
+      "revision": "007",
+      "date": "2026-10-05",
+      "cycle": "study/changes/2026-10-05-karanovo.md",
+      "added_witness": "W_KAR",
+      "source_ids": [
+        "S25",
+        "S26",
+        "S27",
+        "S28",
+        "S29",
+        "S30"
+      ],
+      "method": "Original publication and source reading, visual comparison, separate AI source review, authorial synthesis; not fully blind or human review.",
+      "external_files": [
+        {
+          "source_id": "S25",
+          "sha256": "dab522ea76159ec4ba46f99570bb6b259420f766d78a70122787365b906929df",
+          "redistributed": false,
+          "transformation": "PDF rendered for visual review outside repository; printed pages4–13, with selected full-size views."
+        }
+      ],
+      "images": "Link only; no retouching, invented signs or simulated ancient impression. Modern photo provenance remains incomplete.",
+      "prior_files_note": "The files array records the initial revision005 import, not current hashes."
     }
   ]
 }
