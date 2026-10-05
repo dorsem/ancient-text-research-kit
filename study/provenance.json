@@ -222,5 +222,35 @@
       "source_sha256": "f9b467802c1a13d55dcf09a371a487956b6199f779bf0bf42dd4996856e7ea13",
       "transformation": "Author text reused; local source links mapped to publishers; image embeds replaced by links; local-only wording qualified."
     }
+  ],
+  "research_updates": [
+    {
+      "revision": "006",
+      "date": "2026-10-05",
+      "cycle": "study/changes/2026-10-05-gradeshnitsa.md",
+      "added_witness": "W_GRAD",
+      "source_ids": [
+        "S16",
+        "S17",
+        "S18",
+        "S19",
+        "S20",
+        "S21",
+        "S22",
+        "S23",
+        "S24"
+      ],
+      "method": "Source reading, visual comparison of two published views, separate AI source review, authorial synthesis; no expert approval.",
+      "external_files": [
+        {
+          "source_id": "S17",
+          "sha256": "9a582ac82d08f46ca0beeb9f57f69e2b3e69b7ed7d7c2892dcbc740c8ea60aca",
+          "redistributed": false,
+          "transformation": "PDF rendered to PNG for visual review; source and QA renders kept outside repository."
+        }
+      ],
+      "images": "Link only; no retouching or generated marks; exterior image provenance remains incomplete.",
+      "prior_files_note": "The files array records the initial import from revision005, not hashes of later edited files."
+    }
   ]
 }

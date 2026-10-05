@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": "005-portable-0.1",
+  "revision": "006-gradeshnitsa-0.1.2",
   "scope": "Navigation for C01–C06, not complete structured coverage of every archival sentence",
   "sources": [
     {
@@ -121,6 +121,78 @@
       "url": "https://www.researchgate.net/publication/278320330_The_Jiahu_Site_in_the_Huai_River_Area",
       "independence_group": "jiahu_zhang_team",
       "access_scope": "с. 196, 207, 209; объём чтения см. предметную карточку",
+      "distribution": "link_only"
+    },
+    {
+      "id": "S16",
+      "title": "Институт балканистики / Europeana: Плочка със знаци",
+      "url": "https://www.europeana.eu/bg/item/2021502/jspui_handle_pub_83",
+      "independence_group": "gradeshnitsa-excavation-record",
+      "access_scope": "Описание, инвентарь, дата, размер, права, библиография; текст записи",
+      "distribution": "link_only"
+    },
+    {
+      "id": "S17",
+      "title": "Георги Ганецовски: Праисторическото селище Градешница…",
+      "url": "https://www.vratsamuseum.com/wp-content/uploads/2024/12/Gradeshnica_2012.pdf",
+      "independence_group": "gradeshnitsa-excavation-record",
+      "access_scope": "Все 5 страниц визуально; контекст 2–3, интерпретация 4",
+      "distribution": "link_only"
+    },
+    {
+      "id": "S18",
+      "title": "Музей Врацы: Tablet of Gradeshnitsa",
+      "url": "https://www.vratsamuseum.com/en/pg-en/",
+      "independence_group": "gradeshnitsa-excavation-record",
+      "access_scope": "Предметное описание и pg.webp внутренней поверхности",
+      "distribution": "link_only"
+    },
+    {
+      "id": "S19",
+      "title": "Merlini 2010: Building Archaeological Museums as Protagonists of Virtual Reality",
+      "url": "https://magazines.ulbsibiu.ro/arheologie/publicatii/ats/ats%209/marco.pdf",
+      "independence_group": "merlini-gradeshnitsa",
+      "access_scope": "Извлечённый текст с. 23–24; рис. 7 не просмотрен; прямая загрузка 404",
+      "distribution": "link_only"
+    },
+    {
+      "id": "S20",
+      "title": "Merlini 2015: Lunar Menstrual Chronograms…",
+      "url": "https://www.scribd.com/document/1054426021/Lazarovici-G-C-M-From-Symbol-to-Sign-Part-I-2015",
+      "independence_group": "merlini-gradeshnitsa",
+      "access_scope": "Текстовая репродукция главы, раздел 3.B, с. 142–148; исходный PDF: 403",
+      "distribution": "link_only"
+    },
+    {
+      "id": "S21",
+      "title": "Gradesnica skript.jpg: опубликованный вид наружной поверхности",
+      "url": "https://commons.wikimedia.org/wiki/File:Gradesnica_skript.jpg",
+      "independence_group": "gradeshnitsa-photo-unresolved",
+      "access_scope": "Фото и метаданные; исходная фотографическая цепочка неполна",
+      "distribution": "link_only"
+    },
+    {
+      "id": "S22",
+      "title": "Spiritia: backside of the Gradeshnitsa tablet, copy",
+      "url": "https://commons.wikimedia.org/wiki/File:Vratsa-history-museum-Gradeshnitsa-tablet-back.jpg",
+      "independence_group": "spiritia-replica-photo",
+      "access_scope": "Авторское описание файла, прямо обозначающее копию",
+      "distribution": "link_only"
+    },
+    {
+      "id": "S23",
+      "title": "Данов 2018: Керамиката от Градешница…",
+      "url": "https://be-ja.org/index.php/supplements/article/download/149/145/279",
+      "independence_group": "danov-ceramics-audit",
+      "access_scope": "С. 21–23 и 28–30; перечень 15 номеров в прим.4 на с.23",
+      "distribution": "link_only"
+    },
+    {
+      "id": "S24",
+      "title": "Фонд Гайда: Оброчната Плочица от с. Градешница",
+      "url": "https://guidefoundation.org/gradeshnitsa-obrochna-plochica/",
+      "independence_group": "gaid-method",
+      "access_scope": "Описание нормализации, направления и правил чтения; предложенный перевод",
       "distribution": "link_only"
     }
   ],
@@ -281,6 +353,20 @@
         "reason": "Возраст формулы или композиции не равен дате сохранившегося носителя."
       },
       "dating_basis": "S14: современная редакция; ранний свидетель отдельно не коллирован."
+    },
+    {
+      "id": "W_GRAD",
+      "inventory": "РИМ Враца, А І 2700 (S16); A-2700 у Merlini",
+      "object_date": "Первая половина V тысячелетия до н. э.; ранний халколит по музею",
+      "inscription_date": {
+        "status": "unknown",
+        "reason": "Резы отдельно не датированы."
+      },
+      "composition_date": {
+        "status": "not_applicable",
+        "reason": "Языковое содержание и существование словесной композиции не установлены."
+      },
+      "dating_basis": "S17, PDF-с.2–3: жилище 1, горизонт B; S20,с. 142: 4900–4800, не лабораторная дата."
     }
   ],
   "evidence": [
@@ -434,6 +520,96 @@
       ],
       "kind": "source_assertion",
       "description": "Другой предмет даёт контроль обработки и крепления частей панциря. Это функциональная альтернатива для проверки; назначение M344:28 ею не доказано."
+    },
+    {
+      "id": "E_GRAD_RECORD",
+      "source_id": "S16",
+      "locator": "Поля Идентификатор, Дата на създаване, описание, Препратки",
+      "witness_ids": [
+        "W_GRAD"
+      ],
+      "kind": "source_assertion",
+      "description": "Инвентарь А І 2700, ранний халколит, форма сосуда и разная организация сторон."
+    },
+    {
+      "id": "E_GRAD_INSIDE",
+      "source_id": "S18",
+      "locator": "pg.webp, полное изображение 600×479 из музейной карточки",
+      "witness_ids": [
+        "W_GRAD"
+      ],
+      "kind": "observed_fact",
+      "description": "Внутреннее поле разделено на четыре полосы; направление чтения и фонетика не определяются."
+    },
+    {
+      "id": "E_GRAD_OUTSIDE",
+      "source_id": "S21",
+      "locator": "Полный снимок 499×425 и Summary/File history",
+      "witness_ids": [
+        "W_GRAD"
+      ],
+      "kind": "observed_fact",
+      "description": "В опубликованном виде центральная ромбовидная область и окружающие мотивы; происхождение файла ограничено."
+    },
+    {
+      "id": "E_GRAD_COPY",
+      "source_id": "S22",
+      "locator": "Summary, Description",
+      "witness_ids": [
+        "W_GRAD"
+      ],
+      "kind": "source_assertion",
+      "description": "Автор фотографировал копию, а не сообщает о съёмке древнего оригинала."
+    },
+    {
+      "id": "E_GRAD_ORIENTATION",
+      "source_id": "S19",
+      "locator": "Печатные с.23–24, PDF-с.20–21",
+      "witness_ids": [
+        "W_GRAD"
+      ],
+      "kind": "source_assertion",
+      "description": "Мерлини описывает сосуд, перфорации и обосновывает вертикальную ориентацию внутренней разметки."
+    },
+    {
+      "id": "E_GRAD_LUNAR",
+      "source_id": "S20",
+      "locator": "Раздел 3.B, с.145–148",
+      "witness_ids": [
+        "W_GRAD"
+      ],
+      "kind": "source_assertion",
+      "description": "Авторская лунная трактовка допускает неязыковые знаки; не даёт транслитерации древней речи."
+    },
+    {
+      "id": "E_GRAD_CONTEXT",
+      "source_id": "S17",
+      "locator": "PDF-с.2–4",
+      "witness_ids": [
+        "W_GRAD"
+      ],
+      "kind": "source_assertion",
+      "description": "Заявлены контекст и ранняя дата; обсуждение Тракии не содержит проверенной цепочки фонетических соответствий."
+    },
+    {
+      "id": "E_GRAD_AUDIT",
+      "source_id": "S23",
+      "locator": "С.23, прим.4; с.28–30",
+      "witness_ids": [
+        "W_GRAD"
+      ],
+      "kind": "source_assertion",
+      "description": "А І 2700 отсутствует в перечне 15 исследованных сосудов; критика не передатирует этот предмет."
+    },
+    {
+      "id": "E_GRAD_GAID",
+      "source_id": "S24",
+      "locator": "Абзацы перед построчным переводом, пункты 1–3",
+      "witness_ids": [
+        "W_GRAD"
+      ],
+      "kind": "source_assertion",
+      "description": "Метод сопоставляет обработанные знаки с египетским письмом и переносит его правила чтения."
     }
   ],
   "claims": [
@@ -467,6 +643,18 @@
         {
           "evidence_id": "E_OWIND",
           "relation": "support"
+        },
+        {
+          "evidence_id": "E_GRAD_CONTEXT",
+          "relation": "context"
+        },
+        {
+          "evidence_id": "E_GRAD_LUNAR",
+          "relation": "support"
+        },
+        {
+          "evidence_id": "E_GRAD_GAID",
+          "relation": "context"
         }
       ],
       "alternative": "Ритуальный контекст может относиться к функции предмета без кодирования речи.",
@@ -502,10 +690,30 @@
         {
           "evidence_id": "E_TURTLES",
           "relation": "context"
+        },
+        {
+          "evidence_id": "E_GRAD_RECORD",
+          "relation": "support"
+        },
+        {
+          "evidence_id": "E_GRAD_INSIDE",
+          "relation": "support"
+        },
+        {
+          "evidence_id": "E_GRAD_OUTSIDE",
+          "relation": "support"
+        },
+        {
+          "evidence_id": "E_GRAD_COPY",
+          "relation": "support"
+        },
+        {
+          "evidence_id": "E_GRAD_ORIENTATION",
+          "relation": "context"
         }
       ],
-      "alternative": "Независимые подвески, техническое перекрытие, хранение вместе без совместного ношения.",
-      "next_check": "Проверить ориентацию отверстий, следы крепления и износа, 3D-совместимость и датированные комплекты."
+      "alternative": "Независимые подвески, техническое перекрытие, хранение вместе без совместного ношения. Для Градешницы: орнаментальная или эмблематическая композиция без записи речи.",
+      "next_check": "Проверить ориентацию отверстий, следы крепления и износа, 3D-совместимость и датированные комплекты. Для Градешницы: Николов 1974, фотографии 68–69, затем парная съёмка сторон и каналов отверстий."
     },
     {
       "id": "C03",
@@ -602,10 +810,22 @@
         {
           "evidence_id": "E_KESH",
           "relation": "support"
+        },
+        {
+          "evidence_id": "E_GRAD_LUNAR",
+          "relation": "context"
+        },
+        {
+          "evidence_id": "E_GRAD_INSIDE",
+          "relation": "support"
+        },
+        {
+          "evidence_id": "E_GRAD_GAID",
+          "relation": "context"
         }
       ],
       "alternative": "Сходство простых фигур и подсчётов может возникать независимо либо зависеть от современного отбора.",
-      "next_check": "Искать промежуточные датированные свидетельства и совпадение формы, функции и значения."
+      "next_check": "Искать промежуточные датированные свидетельства и совпадение формы, функции и значения. Лунная гипотеза Градешницы требует заранее заданных соответствий и проверки на независимой серии."
     }
   ]
 }
