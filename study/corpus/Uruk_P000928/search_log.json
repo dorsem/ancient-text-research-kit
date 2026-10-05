@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-05",
+  "role": "main_agent",
+  "queries": [
+    "Uruk IV Inanna archaic tablet W 20044 MUS3 ATU earliest god name",
+    "site.cdli.earth Uruk IV INANNA tablet",
+    "\"Uruk IV\" \"Inanna\" \"W \"",
+    "\"Inanna\" \"W 20044\"",
+    "\"Szarzyńska\" \"Inanna\" archaic tablets",
+    "\"Uruk IV\" \"Inana\" \"W\"",
+    "\"Offerings for the Goddess Inana\" pdf",
+    "Englund 1998 texts late Uruk period Inanna pdf"
+  ],
+  "budget_queries": 18,
+  "scope": "Exact search strings; subsequent source openings and access limits recorded in sources.md.",
+  "reviewer": {
+    "role": "separate_ai_source_review",
+    "queries": [
+      "Englund Inanna Uruk IV W 7222 tablet earliest",
+      "Szarzynska Inanna archaic texts Uruk IV III tablet signs",
+      "\"Offerings for the Goddess Inana in Archaic Uruk\"",
+      "Englund \"Texts from the Late Uruk Period\" Inanna",
+      "site:cdli.earth \"Uruk IV\" \"MUSZ3\"",
+      "\"Inanna\" \"W 7222\"",
+      "\"Englund\" \"Texts from the Late Uruk Period\" \"pdf\"",
+      "\"Archaic Bookkeeping\" \"Inanna\" \"5233\"",
+      "\"Englund_1998.pdf\" \"Inanna\"",
+      "\"Texts from the Late Uruk\" \"language\" Sumerian"
+    ],
+    "budget_queries": 10,
+    "note": "Did not read main synthesis; witness numbers and bibliographic pointers shared after independent discovery. Not fully blind or human review."
+  }
+}

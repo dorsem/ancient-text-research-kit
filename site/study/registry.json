@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": "007-karanovo-0.1.3",
+  "revision": "008-uruk-0.1.4",
   "scope": "Navigation for C01–C06, not complete structured coverage of every archival sentence",
   "sources": [
     {
@@ -242,6 +242,62 @@
       "independence_group": "karanovo-photo-unresolved",
       "access_scope": "Полный снимок875×868, описание и метаданные; цепочка происхождения ограничена",
       "distribution": "link_only"
+    },
+    {
+      "id": "S31",
+      "title": "CDLI P000928 / VAT 15014",
+      "url": "https://cdli.earth/artifacts/928",
+      "independence_group": "uruk-atu-editions",
+      "access_scope": "Каталог целиком; obv.ii.4; фото и прорисовка, выбранное поле при натуральном размере",
+      "distribution": "link_only"
+    },
+    {
+      "id": "S32",
+      "title": "CDLI P001080 / VAT 15008",
+      "url": "https://cdli.earth/artifacts/1080",
+      "independence_group": "uruk-atu-editions",
+      "access_scope": "Паспорт и транслитерация; obv.iii.3; общий вид фото, без новой колляции",
+      "distribution": "link_only"
+    },
+    {
+      "id": "S33",
+      "title": "Englund 1998, Texts from the Late Uruk Period",
+      "url": "https://zenodo.org/records/3739132",
+      "independence_group": "uruk-atu-editions",
+      "access_scope": "Выдержки о языке и графике; визуально с.69 и102, рис.22 и31; не весь том",
+      "distribution": "link_only"
+    },
+    {
+      "id": "S34",
+      "title": "Woods 2010, Visible Language, с.49–50 и каталог39",
+      "url": "https://oi-idb-static.uchicago.edu/multimedia/81/OIMP%2032%20-%20Woods%2C%20Chris%20-%20Visible%20Language.pdf",
+      "independence_group": "uruk-iconography-steinkeller",
+      "access_scope": "С.49–50 и70; рисунки и фото; зависит от Englund и Steinkeller, тот же том что S9",
+      "distribution": "link_only"
+    },
+    {
+      "id": "S35",
+      "title": "Steinkeller 1998, Inanna’s Archaic Symbol",
+      "url": "https://www.vorderas-archaeologie.uni-muenchen.de/aktuelles/diskussion-steinkeller/steinkeller-clay_and_stone.pdf",
+      "independence_group": "uruk-iconography-steinkeller",
+      "access_scope": "Извлечённый текст с.87–93; используются с.87–90; не все иллюстрации",
+      "distribution": "link_only"
+    },
+    {
+      "id": "S36",
+      "title": "Wagensonner 2018, Sumerian in the Middle Assyrian Period",
+      "url": "https://www.mprl-series.mpg.de/studies/10/11/index.html",
+      "independence_group": "uruk-language-wagensonner",
+      "access_scope": "Вводные абзацы §8.1; не вся глава",
+      "distribution": "link_only"
+    },
+    {
+      "id": "S37",
+      "title": "Bartash 2015, Children in Institutional Households of Late Uruk Period Mesopotamia",
+      "url": "https://www.assyriologie.uni-muenchen.de/personen/ehemalige_ma/bartash/publ_bartash/bartash_2015_za_105.pdf",
+      "independence_group": "uruk-language-bartash",
+      "access_scope": "С.131–132: прим.1 о дате и абзац о принятой интерпретации языка",
+      "distribution": "link_only"
     }
   ],
   "witnesses": [
@@ -432,6 +488,34 @@
         "reason": "Языковая композиция не установлена."
       },
       "dating_basis": "S25,с.7–8: Караново VI; S27: современная музейная периодизация V–VI. Нет прямой лабораторной даты вещи; старые абсолютные даты не объединены с современной шкалой."
+    },
+    {
+      "id": "W_URUK_928",
+      "inventory": "VAT 15014 / P000928 / W 07024",
+      "object_date": "Урук IV; около3350–3200 до н.э. по CDLI; альтернативная шкала периода около3200–3100 у Bartash2015",
+      "inscription_date": {
+        "status": "unknown",
+        "reason": "Возраст знаков отдельно не измерен; периодизация относится к предмету."
+      },
+      "composition_date": {
+        "status": "not_applicable",
+        "reason": "Отдельная более ранняя словесная композиция для выбранной учётной записи не установлена."
+      },
+      "dating_basis": "Археологическая и палеографическая атрибуция CDLI; не прямая дата. Различные абсолютные шкалы периода не объединяются."
+    },
+    {
+      "id": "W_URUK_1080",
+      "inventory": "VAT 15008 / P001080 / W 09169,c",
+      "object_date": "Урук IV; около3350–3200 до н.э. по CDLI; альтернативная шкала периода около3200–3100 у Bartash2015",
+      "inscription_date": {
+        "status": "unknown",
+        "reason": "Возраст знаков отдельно не измерен; периодизация относится к предмету."
+      },
+      "composition_date": {
+        "status": "not_applicable",
+        "reason": "Отдельная более ранняя словесная композиция для выбранной учётной записи не установлена."
+      },
+      "dating_basis": "Археологическая и палеографическая атрибуция CDLI; не прямая дата. Различные абсолютные шкалы периода не объединяются."
     }
   ],
   "evidence": [
@@ -755,6 +839,90 @@
       ],
       "kind": "source_assertion",
       "description": "Контекст Караново цитируется через Makkay1984,№121. Версии использования печатей на теле или недолговечных материалах не устанавливают функцию данного экземпляра."
+    },
+    {
+      "id": "E_URUK_RECORD",
+      "source_id": "S31",
+      "locator": "Object, Findspot, Publications; ATU5,табл.23",
+      "witness_ids": [
+        "W_URUK_928"
+      ],
+      "kind": "source_assertion",
+      "description": "VAT15014: УрукIV, Administrative, язык Undetermined; контекст обломочного слоя. Каталог не устанавливает молитву."
+    },
+    {
+      "id": "E_URUK_READING",
+      "source_id": "S31",
+      "locator": "obv.ii.4; фото P000928.jpg, прорисовка P000928_l.jpg",
+      "witness_ids": [
+        "W_URUK_928"
+      ],
+      "kind": "observed_fact",
+      "description": "CDLI даёт 3(N01) , MUSZ3~a; расположение трёх числовых вдавлений и знака сопоставлено с фото и прорисовкой. Предмет счёта не установлен."
+    },
+    {
+      "id": "E_URUK_CONTROL",
+      "source_id": "S32",
+      "locator": "Object; obv.iii.3",
+      "witness_ids": [
+        "W_URUK_1080"
+      ],
+      "kind": "source_assertion",
+      "description": "Другой предмет того же периода: , MUSZ3~a NUN~a# [...]. Повреждение и утрата сохранены; общий текст с VAT15014 не установлен."
+    },
+    {
+      "id": "E_URUK_PALEO",
+      "source_id": "S33",
+      "locator": "с.69,рис.22; с.102,рис.31",
+      "witness_ids": [
+        "W_URUK_928",
+        "W_URUK_1080"
+      ],
+      "kind": "source_assertion",
+      "description": "Серия графических форм MUŠ3 связана автором с Инанной; знаки предполагаемых храмовых хозяйств на рис.31 повёрнуты издателем на90°."
+    },
+    {
+      "id": "E_URUK_EMBLEM",
+      "source_id": "S35",
+      "locator": "с.87–90",
+      "witness_ids": [
+        "W_URUK_928",
+        "W_URUK_1080"
+      ],
+      "kind": "source_assertion",
+      "description": "Формальное соответствие эмблемы и MUŠ/INANNA обосновывает идентификацию; объяснение первоначального предмета-эмблемы остаётся спорным."
+    },
+    {
+      "id": "E_URUK_WOODS",
+      "source_id": "S34",
+      "locator": "с.49–50; каталог39,с.70",
+      "witness_ids": [
+        "W_URUK_928"
+      ],
+      "kind": "source_assertion",
+      "description": "Обсуждение включения эмблемы в письмо сохраняет альтернативные объяснения формы. VAT14540 — отдельный иконографический контроль, не фрагмент таблички."
+    },
+    {
+      "id": "E_URUK_LANGUAGE",
+      "source_id": "S36",
+      "locator": "§8.1,вводные абзацы",
+      "witness_ids": [
+        "W_URUK_928",
+        "W_URUK_1080"
+      ],
+      "kind": "source_assertion",
+      "description": "Автор оценивает шумерский фон архаического корпуса как неподтверждённую гипотезу; это не доказательство другого языка."
+    },
+    {
+      "id": "E_URUK_ALT",
+      "source_id": "S37",
+      "locator": "с.131,прим.1; с.132,первый абзац",
+      "witness_ids": [
+        "W_URUK_928",
+        "W_URUK_1080"
+      ],
+      "kind": "source_assertion",
+      "description": "Автор принимает шумерскую интерпретацию LateUruk; даёт УрукIV около3200–3100 по Englund и отмечает иные абсолютные шкалы. Это не новая колляция выбранных предметов."
     }
   ],
   "claims": [
@@ -812,10 +980,30 @@
         {
           "evidence_id": "E_KAR_STAMPS",
           "relation": "context"
+        },
+        {
+          "evidence_id": "E_URUK_RECORD",
+          "relation": "support"
+        },
+        {
+          "evidence_id": "E_URUK_READING",
+          "relation": "support"
+        },
+        {
+          "evidence_id": "E_URUK_EMBLEM",
+          "relation": "support"
+        },
+        {
+          "evidence_id": "E_URUK_LANGUAGE",
+          "relation": "context"
+        },
+        {
+          "evidence_id": "E_URUK_ALT",
+          "relation": "context"
         }
       ],
-      "alternative": "Ритуальный контекст может относиться к функции предмета без кодирования речи.",
-      "next_check": "Проверить чтение недешифрованной группы на новых независимых надписях."
+      "alternative": "Ритуальный контекст может относиться к функции предмета без кодирования речи. Урук допускает семантическую идентификацию знака без установленного произношения; шумерская интерпретация корпуса остаётся предметом научного разногласия.",
+      "next_check": "Проверить чтение недешифрованной группы на новых независимых надписях. Для Урука: проверять конкретные фонетические и грамматические соответствия, не выводить их из современного имени знака."
     },
     {
       "id": "C02",
@@ -960,10 +1148,26 @@
         {
           "evidence_id": "E_OWIND",
           "relation": "support"
+        },
+        {
+          "evidence_id": "E_URUK_RECORD",
+          "relation": "support"
+        },
+        {
+          "evidence_id": "E_URUK_READING",
+          "relation": "support"
+        },
+        {
+          "evidence_id": "E_URUK_CONTROL",
+          "relation": "support"
+        },
+        {
+          "evidence_id": "E_URUK_EMBLEM",
+          "relation": "support"
         }
       ],
-      "alternative": "Разные функции могут сосуществовать; из выборки не следует общий канон или один институт жречества.",
-      "next_check": "Проверять классификацию на другом жанре с конкретным носителем и содержанием."
+      "alternative": "Разные функции могут сосуществовать; из выборки не следует общий канон или один институт жречества. В учётной записи знак божества может обозначать связанное хозяйство или участника операции; молитвенная функция из него не следует.",
+      "next_check": "Проверять классификацию на другом жанре с конкретным носителем и содержанием. Для VAT15014: полная сверка ATU5,табл.23, и Szarzyńska1993 для проверки вида операции."
     },
     {
       "id": "C06",
@@ -1011,9 +1215,21 @@
         {
           "evidence_id": "E_KAR_ALTERNATIVE",
           "relation": "support"
+        },
+        {
+          "evidence_id": "E_URUK_PALEO",
+          "relation": "support"
+        },
+        {
+          "evidence_id": "E_URUK_EMBLEM",
+          "relation": "support"
+        },
+        {
+          "evidence_id": "E_URUK_WOODS",
+          "relation": "support"
         }
       ],
-      "alternative": "Сходство простых фигур и подсчётов может возникать независимо либо зависеть от современного отбора.",
+      "alternative": "Сходство простых фигур и подсчётов может возникать независимо либо зависеть от современного отбора. Положительное соответствие внутри урукской традиции не доказывает передачу между удалёнными культурами.",
       "next_check": "Искать промежуточные датированные свидетельства и совпадение формы, функции и значения. Лунная гипотеза Градешницы требует заранее заданных соответствий и проверки на независимой серии. Для Караново: не отождествлять четыре поля с четырьмя словами; проверить повторяемость единиц и правил сочетания."
     }
   ]

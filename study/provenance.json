@@ -276,6 +276,35 @@
       ],
       "images": "Link only; no retouching, invented signs or simulated ancient impression. Modern photo provenance remains incomplete.",
       "prior_files_note": "The files array records the initial revision005 import, not current hashes."
+    },
+    {
+      "revision": "008",
+      "date": "2026-10-05",
+      "cycle": "study/changes/2026-10-05-uruk.md",
+      "added_witnesses": [
+        "W_URUK_928",
+        "W_URUK_1080"
+      ],
+      "source_ids": [
+        "S31",
+        "S32",
+        "S33",
+        "S34",
+        "S35",
+        "S36",
+        "S37"
+      ],
+      "method": "Targeted source reading, image comparison, separate AI source review, authorial synthesis; not fully blind or human review.",
+      "external_files": [
+        {
+          "source_id": "S33",
+          "sha256": "8d3039677521857b054cfdadc414395ed2dbe64a175fa3329d99354a46e6c9b7",
+          "redistributed": false,
+          "transformation": "Selected PDF pages rendered for visual review outside repository; printed69 and102. Whole630-page volume not read."
+        }
+      ],
+      "images": "CDLI photo and lineart linked only. P000928 selected case inspected; P001080 general photo inspected, not independently collated. No retouching or invented signs. Englund fig31 rotation is editorial, not ours.",
+      "prior_files_note": "The files array records the initial revision005 import, not current hashes."
     }
   ]
 }
