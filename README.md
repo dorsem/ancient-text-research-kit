@@ -1,12 +1,12 @@
 # Ancient Text Research Kit
 
-Открываемая локально лаборатория для изучения древних текстов и ритуальных практик: метод, инструкции агенту и пополняемое исследование на русском языке. Рабочая исследовательская редакция 0.1.4, 5 октября 2026.
+Лаборатория для построения проверяемой модели древних знаков, текстов, религиозных представлений и практик через анализ оригиналов, расшифровку, сравнение и синтез. В комплекте метод, инструкции агенту и пополняемое исследование на русском языке. Рабочая редакция 0.2.0, 5 октября 2026.
 
 [Читать на сайте](https://dorsem.github.io/ancient-text-research-kit/) · [Важные выводы и основания](https://dorsem.github.io/ancient-text-research-kit/evidence.html) · [Репозиторий](https://github.com/dorsem/ancient-text-research-kit)
 
 Шаблон и собственный код доступны по MIT, собственный исследовательский текст по CC BY 4.0. [Область действия лицензий и атрибуция](LICENSING.md).
 
-Начните с [исследования](study/reports/main_research.md). Шесть важных выводов находятся в его первом разделе. Полные чтения и разночтения вынесены в предметные карточки; основной текст сохраняет предел 30 страниц вместе с иллюстрациями и библиографией. Печатная версия основного HTML-текста редакции 008 занимает **16 страниц A4** в WeasyPrint 66.0, включая библиографию и ссылки на изображения. Изображения и подробные карточки остаются по ссылкам; параметры и контрольные суммы записаны в docs/VALIDATION.json. В другом браузере пагинация может отличаться.
+Начните с [исследования](study/reports/main_research.md). В начале показана текущая объяснительная модель и шесть важных выводов с основаниями. Модель строится по материалу, а общая древняя система не предполагается заранее. [Общая цель и ближайшая проверка](study/PROJECT.md). Полные чтения и разночтения вынесены в предметные карточки; основной текст сохраняет предел 30 страниц вместе с иллюстрациями и библиографией. Печатная версия основного HTML-текста редакции 009 занимает **18 страниц A4** в WeasyPrint 66.0, включая библиографию и ссылки на изображения. Изображения и подробные карточки остаются по ссылкам; параметры и контрольные суммы записаны в docs/VALIDATION.json. В другом браузере пагинация может отличаться.
 
 ## Прочитать и проверить
 
@@ -22,14 +22,15 @@ python3 -m unittest discover -s tests -v
 
 ## Продолжить исследование с агентом
 
-Передайте агенту этот каталог и запрос: «Прочитай AGENTS.md и study/PROJECT.md. Выполни один следующий исследовательский цикл, проверь первичные источники, покажи изменения важных выводов и обнови основной текст». Агенту понадобится доступ к источникам. Один агент может выполнить роли последовательно; такую проверку нельзя называть независимым рецензированием.
+Передайте агенту этот каталог и запрос: «Прочитай AGENTS.md и study/PROJECT.md. Выполни одну проверку из активной очереди: проанализируй оригинал, отдели собственные наблюдения и варианты чтения от опубликованных, проверь объяснение против альтернативы и покажи, что это меняет или подтверждает в общей модели». Агенту понадобится доступ к источникам. Один агент может выполнить роли последовательно; такую проверку нельзя называть независимым рецензированием.
 
 Для другого исследования создайте отдельную копию проекта, задайте свой вопрос в study/PROJECT.md и заполните [шаблоны](templates/cycle.md). Образец реестра показан в study/registry.json. Уберите пример только после сохранения своей рабочей копии. Инструкция не гарантирует одинаковое качество у разных моделей.
 
 ## Как устроены записи
 
 - study/reports/main_research.md: единственный основной синтез. Здесь редактируется рассказ и формулировки C01–C06.
-- study/corpus/: оригинальные языковые чтения, рабочие русские переводы, варианты и ограничения по каждому предмету.
+- study/corpus/: оригиналы по ссылкам, покрытие осмотра, опубликованные и собственные чтения, рабочие русские переводы, гипотезы, проверки и ограничения по каждому предмету.
+- templates/: шаблоны предмета, анализа изображения и различающей проверки объяснения.
 - study/registry.json: небольшой указатель от C01–C06 к точным основаниям, независимым группам источников и проверкам. Он не заменяет карточки и не повторяет текст выводов.
 - study/changes/: история содержательных пересмотров. Проверка примера C02 разбирает несоответствие изображения и подписи рисунка.
 - docs/: метод, обзор инструментов 2026 года, решение о Foundry и подготовка публикации.
@@ -41,4 +42,4 @@ python3 -m unittest discover -s tests -v
 
 ## English quick start
 
-A portable, Russian-language research example and agent protocol for ancient texts and ritual practices. Read the study, run the three commands above, or give AGENTS.md to your own agent. New interpretations require source locations, alternatives, and an explicit review record. Code and agent instructions are MIT; original research text is CC BY 4.0, with third-party material excluded from that grant. GitHub Pages rebuilds after validated changes to the default branch. No autonomous literature monitoring is included.
+A portable, Russian-language research example and agent protocol for building and testing an explanatory model of ancient signs, meanings and religious practices through original-image analysis, decipherment, comparison and synthesis. A universal ancient system is not assumed. Read the study, run the three commands above, or give AGENTS.md to your own agent. New interpretations require source locations, alternatives, and an explicit review record. Code and agent instructions are MIT; original research text is CC BY 4.0, with third-party material excluded from that grant. GitHub Pages rebuilds after validated changes to the default branch. No autonomous literature monitoring is included.

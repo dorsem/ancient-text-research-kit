@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": "008-uruk-0.1.4",
+  "revision": "009-model-0.2.0",
   "scope": "Navigation for C01–C06, not complete structured coverage of every archival sentence",
   "sources": [
     {

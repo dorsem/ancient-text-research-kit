@@ -23,15 +23,18 @@
     "Gradeshnitsa": "Institutional inventory, context, two published surface views, replica metadata, and limits of Gaida/Merlini interpretations traced in new card and C01/C02/C06. Source review by a separate AI agent; not human or fully blind review.",
     "Karanovo": "Read original figures3a–b and segmentation discussion, new card, main study and comparison. Matrix/impression, fields/signs, context/object dates distinguished; unknown inventory explicit. Separate AI source review, not fully blind or human approval.",
     "Uruk": "Selected P000928 case compared with photo and lineart; exact readings and damage preserved in card and synthesis. Sign identification, language and administrative function distinguished. P001080 catalogue control, photo overview only. Separate AI source review, not fully blind or human approval.",
-    "chronology_correction": "Replaced stale statement that Tartaria object analysis was not done with links to completed cards; no new decipherment claimed."
+    "chronology_correction": "Replaced stale statement that Tartaria object analysis was not done with links to completed cards; no new decipherment claimed.",
+    "overall_goal": "PROJECT, AGENTS, METHOD, templates and main synthesis implement owner clarification: explanatory model emerges from originals, decipherment attempts, analysis and synthesis; shared ancient system is not assumed. Existing C01-C06 presented as working model, exact readings and all source/evidence/claim records unchanged.",
+    "next_model_test": "Filled Uruk plan distinguishes candidate roles of MUSZ3, records actual prior image coverage, and admits editions already known. Planned check not claimed as new collation, blind validation or discovery."
   },
   "limitations": [
     "No model-independent scholarly review of all portable archive cards. Registry claims remain draft.",
     "External URL availability is not checked by offline validator.",
-    "The 16-page measurement applies to the linked-image portable synthesis in the documented renderer; pagination can vary with browser and fonts.",
+    "The 18-page measurement applies to the linked-image portable synthesis in the documented renderer; pagination can vary with browser and fonts.",
     "Gradeshnitsa: original excavation photos 68-69 not obtained; exterior web photograph has incomplete provenance. No established linguistic translation.",
     "Karanovo: individual museum inventory and direct object dating not obtained; two level numberings retained. No established language, translation, matched ancient impression or proven ritual function. Modern photo provenance incomplete.",
-    "Uruk: precise precedence within UrukIV, object counted, operation and pronunciation not established. Alternative absolute chronologies retained; P001080 not independently collated; whole ATU5 and Szarzynska1993 not read."
+    "Uruk: precise precedence within UrukIV, object counted, operation and pronunciation not established. Alternative absolute chronologies retained; P001080 not independently collated; whole ATU5 and Szarzynska1993 not read.",
+    "Revision009 edits the research goal and method, with no new historical-source search or image collation. Council was two AI agents plus a separate chairman on the same provider; not archaeological expertise. Protocol effectiveness awaits the next substantive test."
   ],
   "source_docx": {
     "revision": "005",
@@ -40,34 +43,34 @@
   },
   "privacy": "No source PDF, photograph, personal absolute path, API credential, Foundry implementation or local database included.",
   "publication_authorization": "Owner approved dorsem repository and ongoing verified updates; MIT + CC BY 4.0 explicitly approved.",
-  "revision": "008",
-  "version": "0.1.4",
+  "revision": "009",
+  "version": "0.2.0",
   "pagination": {
-    "revision": "008",
+    "revision": "009",
     "renderer": "WeasyPrint 66.0",
     "format": "A4, 18 mm margins, body 11 pt, table 9.5 pt; repository print CSS",
-    "pages": 16,
+    "pages": 18,
     "max_pages": 30,
     "within_limit": true,
     "source": "study/reports/main_research.md",
-    "source_sha256": "66046923375dba719d2dea476bbf5f7c826878cb390e7cfa6662800834b8f0ad",
+    "source_sha256": "0d5aba21d8c1c77581126fa5338a0d86b5dca6513084b3d28482d24392bd5253",
     "html": "site/study/reports/main_research.html",
-    "html_sha256": "3f9f28f88221ba859014e227eaa3c17069329579a87ad4a8a460b2bf939bcd40",
-    "qa_pdf_sha256": "f8989349a856d601792b01c973f9db86ae4f77c3f688d4c8e5bb6c211648b113",
-    "scope": "Main synthesis including references and image captions/links; external pictures and detailed witness cards not embedded. PDF used for QA, not distributed.",
-    "visual_review": "All16 pages on contact sheets; full-size pages10 and13 covering the new Uruk section and comparative table. No clipped text or overlapping content observed."
+    "html_sha256": "b626985557c2b62b677026fb25388f8b1b021abc2838961b26d23a0508de7830",
+    "qa_pdf_sha256": "f77164daf6fb172ee6d99c2725b4cf677620956937c5c92788457bae4d3101e7",
+    "scope": "Main synthesis including references and image captions/links; detailed cards, methods and external images not embedded. PDF used for QA, not distributed.",
+    "visual_review": "All18 pages on contact sheets; full-size pages1 and2 for revised goal and model table. No clipped text or overlapping content observed."
   },
   "previous_remote_checks": {
-    "run": "https://github.com/dorsem/ancient-text-research-kit/actions/runs/37253932116",
-    "commit": "ee15e62e4f75b1196b07cb1bad7c729aea4163f7",
+    "run": "https://github.com/dorsem/ancient-text-research-kit/actions/runs/37255878760",
+    "commit": "7050c50d6c3f82995bbc28662664cf81fc5f16ca",
     "python_versions": [
       "3.9",
       "3.12"
     ],
     "result": "success including Pages deployment",
-    "scope": "Historical verification of revision007, not current008."
+    "scope": "Historical verification of revision008, not current009."
   },
-  "previous_browser_check": "Revision007 live main study and Karanovo card verified. Local file URL preview of current008 blocked by browser policy; print render inspected. Current008 live publication must be verified after push.",
+  "previous_browser_check": "Revision008 live main study and Uruk card verified. Current009 print render inspected; live goal and model must be checked after publication.",
   "previous_pagination": [
     {
       "revision": "006",
@@ -98,6 +101,21 @@
       "qa_pdf_sha256": "a612d207053970c35e937a090879276240902bf6a576d0c7a2b7b6f647044b1a",
       "scope": "Main synthesis including references and image captions/links; external pictures and detailed witness cards not embedded. PDF used for QA, not distributed.",
       "visual_review": "All15 pages on contact sheets; full-size pages9 and13 covering new Karanovo section and comparative table. No clipped text or overlapping content observed."
+    },
+    {
+      "revision": "008",
+      "renderer": "WeasyPrint 66.0",
+      "format": "A4, 18 mm margins, body 11 pt, table 9.5 pt; repository print CSS",
+      "pages": 16,
+      "max_pages": 30,
+      "within_limit": true,
+      "source": "study/reports/main_research.md",
+      "source_sha256": "66046923375dba719d2dea476bbf5f7c826878cb390e7cfa6662800834b8f0ad",
+      "html": "site/study/reports/main_research.html",
+      "html_sha256": "3f9f28f88221ba859014e227eaa3c17069329579a87ad4a8a460b2bf939bcd40",
+      "qa_pdf_sha256": "f8989349a856d601792b01c973f9db86ae4f77c3f688d4c8e5bb6c211648b113",
+      "scope": "Main synthesis including references and image captions/links; external pictures and detailed witness cards not embedded. PDF used for QA, not distributed.",
+      "visual_review": "All16 pages on contact sheets; full-size pages10 and13 covering the new Uruk section and comparative table. No clipped text or overlapping content observed."
     }
   ]
 }

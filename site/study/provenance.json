@@ -305,6 +305,17 @@
       ],
       "images": "CDLI photo and lineart linked only. P000928 selected case inspected; P001080 general photo inspected, not independently collated. No retouching or invented signs. Englund fig31 rotation is editorial, not ours.",
       "prior_files_note": "The files array records the initial revision005 import, not current hashes."
+    },
+    {
+      "revision": "009",
+      "date": "2026-10-05",
+      "cycle": "study/changes/2026-10-05-goal-and-synthesis.md",
+      "type": "goal_and_method_revision",
+      "source_ids": [],
+      "added_witnesses": [],
+      "method": "Owner-clarified explanatory goal; two live AI council members and separate chairman; synthesis reorganised from existing C01-C06. No new image collation or historical discovery.",
+      "preserved": "Source readings, evidence relations and draft review states unchanged. Current queue clarified; historical cycle logs preserved.",
+      "prior_files_note": "The files array records revision005 import, not current hashes."
     }
   ]
 }
