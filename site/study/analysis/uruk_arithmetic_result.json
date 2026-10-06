@@ -1,0 +1,47 @@
+{
+  "source": "study/corpus/Uruk_P000928/transliteration.atf",
+  "source_sha256": "5b1dd5dde9b7947de2130dbbea286d40493a2772457b98e13cebdb92583ec929",
+  "total_entries": 21,
+  "obverse_entries": 11,
+  "reverse_entries": 10,
+  "obverse_N01_frequency": {
+    "1": 1,
+    "3": 6,
+    "5": 4
+  },
+  "damaged_numeric_entries": [
+    "obverse.1.1",
+    "obverse.2.1",
+    "reverse.3.1"
+  ],
+  "MUSZ3_entries": [
+    "obverse.2.4"
+  ],
+  "conditional_totals": [
+    {
+      "assumed_N14_in_N01": 10,
+      "obverse_all_entries": 39,
+      "reverse_first": 38,
+      "difference_obverse_minus_reverse": 1
+    },
+    {
+      "assumed_N14_in_N01": 6,
+      "obverse_all_entries": 39,
+      "reverse_first": 26,
+      "difference_obverse_minus_reverse": 13
+    }
+  ],
+  "post_hoc_scope_candidate": {
+    "excluded_entry": "obverse.3.2",
+    "first_ten_N01": 38,
+    "remaining_entry_N01": 1,
+    "warning": "Chosen after observing the sum; not evidence of the last entry function."
+  },
+  "assumptions": [
+    "Edited counts accepted even where marked damaged.",
+    "All obverse entries use a common additive N01 unit.",
+    "Reverse first entry is compared with the entire obverse.",
+    "Ratios10 and6 are alternatives from scholarship, not a determination for this tablet."
+  ],
+  "interpretation": "Arithmetic diagnostic only; no source correction or ancient error inferred."
+}

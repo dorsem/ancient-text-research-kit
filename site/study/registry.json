@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": "009-model-0.2.0",
+  "revision": "010-uruk-full-0.2.1",
   "scope": "Navigation for C01–C06, not complete structured coverage of every archival sentence",
   "sources": [
     {
@@ -248,7 +248,7 @@
       "title": "CDLI P000928 / VAT 15014",
       "url": "https://cdli.earth/artifacts/928",
       "independence_group": "uruk-atu-editions",
-      "access_scope": "Каталог целиком; obv.ii.4; фото и прорисовка, выбранное поле при натуральном размере",
+      "access_scope": "Весь текст (21 запись), фото576×1638, прорисовка299×828; история2006/2007/2018 и карточка2001; фактическое покрытие и повреждения в full_analysis.md.",
       "distribution": "link_only"
     },
     {
@@ -264,7 +264,7 @@
       "title": "Englund 1998, Texts from the Late Uruk Period",
       "url": "https://zenodo.org/records/3739132",
       "independence_group": "uruk-atu-editions",
-      "access_scope": "Выдержки о языке и графике; визуально с.69 и102, рис.22 и31; не весь том",
+      "access_scope": "Выдержки о языке и графике; визуально с.69 и102, рис.22 и31; не весь том Цикл010: дополнительно с.112–118, визуально фиг.37 и41; контроль метрологии, не переиздание P000928.",
       "distribution": "link_only"
     },
     {
@@ -923,6 +923,56 @@
       ],
       "kind": "source_assertion",
       "description": "Автор принимает шумерскую интерпретацию LateUruk; даёт УрукIV около3200–3100 по Englund и отмечает иные абсолютные шкалы. Это не новая колляция выбранных предметов."
+    },
+    {
+      "id": "E_URUK_FULL",
+      "source_id": "S31",
+      "locator": "все11 записей obverse; все10 записей reverse",
+      "witness_ids": [
+        "W_URUK_928"
+      ],
+      "kind": "source_assertion",
+      "description": "Полная цифровая редакция содержит четыре записи5(N01), шесть3(N01), одну1(N01) на лице; MUŠ3 находится в одной из шести троек. Повреждённые числовые группы сохранены."
+    },
+    {
+      "id": "E_URUK_FIELDS",
+      "source_id": "S31",
+      "locator": "P000928.jpg, обе поверхности; P000928_l.jpg; full_analysis.md,21 локатор",
+      "witness_ids": [
+        "W_URUK_928"
+      ],
+      "kind": "observed_fact",
+      "description": "Все каталожные поля последовательно сопоставлены с фото; MUŠ3 в обычном числовом поле. Из-за утрат и разрешения независимая колляция всех знаков не заявляется."
+    },
+    {
+      "id": "E_URUK_SUM",
+      "source_id": "S31",
+      "locator": "obv.i.1–iii.2; rev.i.1; study/analysis/uruk_arithmetic_result.json",
+      "witness_ids": [
+        "W_URUK_928"
+      ],
+      "kind": "observed_fact",
+      "description": "Условный расчёт по редакции: все11 чиселN01 дают39, первые10 дают38. ПриN14=10N01 rev.i.1 даёт38; при6N01 даёт26. Область суммирования не установлена."
+    },
+    {
+      "id": "E_URUK_HISTORY",
+      "source_id": "S31",
+      "locator": "/artifacts/928/history/atf; /artifacts-updates/905",
+      "witness_ids": [
+        "W_URUK_928"
+      ],
+      "kind": "source_assertion",
+      "description": "Версии2006,2007,2018 сохраняют рассматриваемые числа; испорченное примечание о предполагаемом итоге есть уже в карточке2001. Печатное примечаниеATU5 не прочитано."
+    },
+    {
+      "id": "E_URUK_METROLOGY",
+      "source_id": "S33",
+      "locator": "с.112–118; фиг.37 и41",
+      "witness_ids": [
+        "W_URUK_928"
+      ],
+      "kind": "source_assertion",
+      "description": "Englund различает отношениеN14:N01=10:1 в счёте единиц и6:1 в зерновой системе. Графическая форма не выбирает значение без контекста."
     }
   ],
   "claims": [
@@ -1164,10 +1214,30 @@
         {
           "evidence_id": "E_URUK_EMBLEM",
           "relation": "support"
+        },
+        {
+          "evidence_id": "E_URUK_FULL",
+          "relation": "support"
+        },
+        {
+          "evidence_id": "E_URUK_FIELDS",
+          "relation": "support"
+        },
+        {
+          "evidence_id": "E_URUK_SUM",
+          "relation": "context"
+        },
+        {
+          "evidence_id": "E_URUK_HISTORY",
+          "relation": "context"
+        },
+        {
+          "evidence_id": "E_URUK_METROLOGY",
+          "relation": "context"
         }
       ],
       "alternative": "Разные функции могут сосуществовать; из выборки не следует общий канон или один институт жречества. В учётной записи знак божества может обозначать связанное хозяйство или участника операции; молитвенная функция из него не следует.",
-      "next_check": "Проверять классификацию на другом жанре с конкретным носителем и содержанием. Для VAT15014: полная сверка ATU5,табл.23, и Szarzyńska1993 для проверки вида операции."
+      "next_check": "Для VAT15014 проверить печатное примечаниеATU5 и новую параллель с независимо определённой ролью последнего поля; совпадение38 само по себе не доказывает его исключения. Следующий хронологический предмет: ярлыкU-j."
     },
     {
       "id": "C06",
@@ -1227,6 +1297,18 @@
         {
           "evidence_id": "E_URUK_WOODS",
           "relation": "support"
+        },
+        {
+          "evidence_id": "E_URUK_FULL",
+          "relation": "context"
+        },
+        {
+          "evidence_id": "E_URUK_SUM",
+          "relation": "context"
+        },
+        {
+          "evidence_id": "E_URUK_METROLOGY",
+          "relation": "context"
         }
       ],
       "alternative": "Сходство простых фигур и подсчётов может возникать независимо либо зависеть от современного отбора. Положительное соответствие внутри урукской традиции не доказывает передачу между удалёнными культурами.",

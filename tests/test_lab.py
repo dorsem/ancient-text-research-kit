@@ -81,6 +81,18 @@ class LinkAndRenderChecks(unittest.TestCase):
         rows=re.findall(r'^\| (?:obv|rev) [^|]+ \|',text,re.M)
         self.assertEqual(len(rows),42)
 
+    def test_uruk_full_edition_and_audit_stay_consistent(self):
+        import re, subprocess, sys
+        folder=ROOT/'study/corpus/Uruk_P000928'
+        atf=(folder/'transliteration.atf').read_text()
+        lines=re.findall(r'^\d+\. (.+)$',atf,re.M)
+        prose=(folder/'full_analysis.md').read_text()
+        table=re.findall(r'^\| (?:obv|rev)\. [^|]+ \| `([^`]+)` \|',prose,re.M)
+        self.assertEqual(len(lines),21)
+        self.assertEqual(table,lines)
+        subprocess.run([sys.executable,str(ROOT/'study/analysis/check_uruk.py'),'--check'],
+                       check=True,capture_output=True,text=True)
+
     def test_fara_keeps_witnesses_and_superscript(self):
         text=(ROOT/'study/corpus/Fara_FSB15/full_text.md').read_text()
         self.assertIn('SF54',text)
@@ -117,6 +129,21 @@ class BuiltSiteChecks(unittest.TestCase):
                 self.assertTrue(lab.within(self.root/'site',target),(p,url))
                 self.assertTrue(target.is_file(),(p,url))
                 if u.fragment and target in parsed:self.assertIn(unquote(u.fragment),parsed[target].ids)
+
+    def test_evidence_links_keep_main_document_targets(self):
+        main=self.root/'study/reports/main_research.md'
+        text=main.read_text()
+        marker='### C01.'
+        start=text.index('\n',text.index(marker))
+        links='\n\n[Same section](#c01) [Sibling](chronology.md) [Object](../corpus/Uruk_P000928/reading.md) [External](https://cdli.earth/artifacts/928)\n'
+        main.write_text(text[:start]+links+text[start:])
+        html=lab.evidence_view(self.root)
+        for target in ['study/reports/main_research.html#c01',
+                       'study/reports/chronology.html',
+                       'study/corpus/Uruk_P000928/reading.html',
+                       'https://cdli.earth/artifacts/928']:
+            self.assertIn('href="'+target+'"',html)
+        self.assertNotIn('href="../corpus/',html)
 
     def test_rebuild_preserves_manual_html_edits(self):
         lab.build(self.root)

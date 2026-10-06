@@ -316,6 +316,27 @@
       "method": "Owner-clarified explanatory goal; two live AI council members and separate chairman; synthesis reorganised from existing C01-C06. No new image collation or historical discovery.",
       "preserved": "Source readings, evidence relations and draft review states unchanged. Current queue clarified; historical cycle logs preserved.",
       "prior_files_note": "The files array records revision005 import, not current hashes."
+    },
+    {
+      "revision": "010",
+      "date": "2026-10-06",
+      "cycle": "study/changes/2026-10-06-uruk-full.md",
+      "source_ids": [
+        "S31",
+        "S33"
+      ],
+      "added_witnesses": [],
+      "method": "All21 edited fields surveyed against photo and lineart by root; separate AI source/history reviewer then exchanged findings. Not blind, independent expert collation or human approval.",
+      "images": "CDLI photo576x1638 and raster lineart299x828 viewed fit and native; browser scaling only, no retouch, rotations, invented marks or redistributed media.",
+      "external_files": [
+        {
+          "source_id": "S33",
+          "sha256": "8d3039677521857b054cfdadc414395ed2dbe64a175fa3329d99354a46e6c9b7",
+          "redistributed": false,
+          "transformation": "Read printed112–118; rendered and viewed figures37and41 at printed114and118."
+        }
+      ],
+      "arithmetic": "Conditional on edited damaged counts, commonN01unit, selectedN14ratio and summation scope; post-hoc last-entry exclusion remains hypothesis."
     }
   ]
 }

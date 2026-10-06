@@ -309,8 +309,21 @@ def evidence_view(root):
     blocks=re.split(r'(?=^### C\d+\.)',text,flags=re.M)
     sections={re.match(r'### (C\d+)\.',b)[1]:b.split('\n## ',1)[0].strip() for b in blocks if re.match(r'### (C\d+)\.',b)}
     md=['# Важные выводы и путь проверки', 'Формулировки взяты из основного текста, основания из реестра. Статус draft относится к отдельной проверке переносимого пакета. Сила основания и статус проверки различаются.']
+    # These paragraphs move from study/reports to the site root. Retain each
+    # source-relative link's target, including links to the source's own anchors.
+    def main_link(match):
+        import posixpath
+        url = match[3]
+        if not safe_url(url): raise ValueError('unsafe source section URL')
+        parts = urlsplit(url)
+        if parts.scheme: return match[0]
+        target = (posixpath.normpath(posixpath.join('study/reports', parts.path))
+                  if parts.path else 'study/reports/main_research.md')
+        rebased = parts._replace(path=target).geturl()
+        return f'{match[1]}[{match[2]}]({rebased})'
+
     for c in data['claims']:
-        md.append(sections[c['id']])
+        md.append(LINK.sub(main_link, sections[c['id']]))
         md.append(f"[В основном исследовании](study/reports/main_research.md#{c['id'].lower()}). Тип: {c['kind']}; уверенность: {c['confidence']}; проверка: {c['review_status']}.")
         md.append('Альтернатива: '+c['alternative']+' Следующая проверка: '+c['next_check'])
         for edge in c['evidence']:
