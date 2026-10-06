@@ -337,6 +337,47 @@
         }
       ],
       "arithmetic": "Conditional on edited damaged counts, commonN01unit, selectedN14ratio and summation scope; post-hoc last-entry exclusion remains hypothesis."
+    },
+    {
+      "revision": "011",
+      "date": "2026-10-07",
+      "cycle": "study/changes/2026-10-07-abydos-uj.md",
+      "source_ids": [
+        "S38",
+        "S39",
+        "S40",
+        "S41",
+        "S42",
+        "S43"
+      ],
+      "added_witnesses": [
+        "W_UJ_59"
+      ],
+      "method": "Root inspected complete published facsimile and credits; separate AI source/counter-reading research with later locator and findings exchange. Not blind or human review. Partial semantic candidate formed after literature reading. Source reviewer subsequently checked new witness cards; root independently resolved date-source query against Regulski database introduction and note5.",
+      "images": "OIMP32 printed140 fig6.5 and235 sourcecredit rendered/viewed, no retouch or rotation. OIMP33 p135 group photos viewed but not matched to59. Original numbered photo and reverse of59 not collated; external media link-only.",
+      "external_files": [
+        {
+          "source_id": "S38",
+          "sha256": "e41d1c3cc47997d666af6e110fbf92eaa4653ee58150bebdbc6fd842991360a2",
+          "redistributed": false
+        },
+        {
+          "source_id": "S40",
+          "sha256": "499293eab3cfcfb2b82e6a7ae04ac82db4c3f8a38c658e1e5e01ae5f2ce82b81",
+          "redistributed": false
+        },
+        {
+          "source_id": "S41",
+          "sha256": "d62dc772f28736a7e1c3bb7097ab0cbddc5d421a4b511bda512a33d40e9cad76",
+          "redistributed": false
+        },
+        {
+          "source_id": "S42",
+          "sha256": "4368264ba2e62e1b682dcc75560623598e9af13695789f8a0e05fdc372991441",
+          "redistributed": false
+        }
+      ],
+      "chronology": "Two U-j wood samples retained separately with published1998 intervals; no new calibration and no direct date oflabel."
     }
   ]
 }

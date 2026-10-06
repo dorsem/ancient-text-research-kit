@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": "010-uruk-full-0.2.1",
+  "revision": "011-abydos-uj-0.2.2",
   "scope": "Navigation for C01–C06, not complete structured coverage of every archival sentence",
   "sources": [
     {
@@ -298,6 +298,54 @@
       "independence_group": "uruk-language-bartash",
       "access_scope": "С.131–132: прим.1 о дате и абзац о принятой интерпретации языка",
       "distribution": "link_only"
+    },
+    {
+      "id": "S38",
+      "title": "Stauder 2010, The Earliest Egyptian Writing, OIMP32",
+      "url": "https://oi-idb-static.uchicago.edu/multimedia/81/OIMP%2032%20-%20Woods%2C%20Chris%20-%20Visible%20Language.pdf",
+      "independence_group": "abydos-uj-excavation-and-readings",
+      "access_scope": "С.138–141: текст; с.140, рис.6.5 и с.235: прорисовка и визуально проверенный источник изображения.",
+      "distribution": "link_only"
+    },
+    {
+      "id": "S39",
+      "title": "Kahl 2001, Hieroglyphic Writing During the Fourth Millennium BC, Archéo-Nil11",
+      "url": "https://www.persee.fr/doc/page/arnil_1161-0492_2001_num_11_1_1240/arnil_1161-0492_2001_num_11_1_T1_0118_0000",
+      "independence_group": "abydos-uj-excavation-and-readings",
+      "access_scope": "С.118: текст и подпись рис.17 прочитаны в HTML архива журнала; отдельное изображение рисунка не осмотрено.",
+      "distribution": "link_only"
+    },
+    {
+      "id": "S40",
+      "title": "Jiménez-Serrano 2007, Principles of the Oldest Egyptian Writing, Lingua Aegyptia15",
+      "url": "https://peachv.org/images/MuslimGeo/EgyptLangOldestWritingSerrano.pdf",
+      "independence_group": "abydos-uj-excavation-and-readings",
+      "access_scope": "Скан статьи на стороннем хосте; с.47,60–62 прочитаны; с.61–62 визуально проверены. Прим.79 включает №59.",
+      "distribution": "link_only"
+    },
+    {
+      "id": "S41",
+      "title": "Görsdorf, Dreyer, Hartung 1998, New 14C Dating of the Archaic Royal Necropolis Umm el-Qaab at Abydos",
+      "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/31F093FEBFB5C0BDC7815D83B3CF8988/S0033822200018579a.pdf/new_14c_dating_of_the_archaic_royal_necropolis_umm_elqaab_at_abydos_egypt.pdf",
+      "independence_group": "abydos-uj-radiocarbon",
+      "access_scope": "С.641–644 прочитаны; таблица двух образцов древесины U-j на с.643 визуально проверена. Новая калибровка не выполнялась.",
+      "distribution": "link_only"
+    },
+    {
+      "id": "S42",
+      "title": "Dreyer 2011, Tomb U-j: A Royal Burial of Dynasty 0 at Abydos, OIMP33",
+      "url": "https://isac-idb-static.uchicago.edu/multimedia/88/oimp33.pdf",
+      "independence_group": "abydos-uj-excavation-and-readings",
+      "access_scope": "С.128,134–135: контекст и авторская интерпретация; с.135, рис.14.17 осмотрен. Фотографии не отождествлены с №59.",
+      "distribution": "link_only"
+    },
+    {
+      "id": "S43",
+      "title": "Regulski, Database of Early Dynastic inscriptions, introduction",
+      "url": "https://www1.ivv1.uni-muenster.de/litw3/Aegyptologie/indexi1.htm",
+      "independence_group": "abydos-uj-chronology-regulski",
+      "access_scope": "Первый абзац, раздел Date и прим.5 повторно прочитаны: IIIA1,ca3250. Не смешивать с иной Oxford-главой автора.",
+      "distribution": "link_only"
     }
   ],
   "witnesses": [
@@ -516,6 +564,23 @@
         "reason": "Отдельная более ранняя словесная композиция для выбранной учётной записи не установлена."
       },
       "dating_basis": "Археологическая и палеографическая атрибуция CDLI; не прямая дата. Различные абсолютные шкалы периода не объединяются."
+    },
+    {
+      "id": "W_UJ_59",
+      "inventory": {
+        "status": "unknown",
+        "reason": "Музейный инвентарь не установлен. Устойчивый идентификатор публикации: Dreyer1998,с.119,рис.76,№59; это не инвентарный номер."
+      },
+      "object_date": "Конец IV тысячелетия до н.э., контекст гробницы U-j; разные абсолютные шкалы сохранены в карточке, точная дата вещи не установлена.",
+      "inscription_date": {
+        "status": "unknown",
+        "reason": "Прямой даты нанесения резов нет; 14C-измерения относятся к древесине камеры6."
+      },
+      "composition_date": {
+        "status": "not_applicable",
+        "reason": "Самостоятельная более ранняя словесная композиция для ярлыка не установлена."
+      },
+      "dating_basis": "Контекстная атрибуция. NaqadaIIIa2 у раскопщика и в радиоуглеродной статье; IIIA1 около3250 в прежней записи Regulski не усредняется с ней."
     }
   ],
   "evidence": [
@@ -973,6 +1038,86 @@
       ],
       "kind": "source_assertion",
       "description": "Englund различает отношениеN14:N01=10:1 в счёте единиц и6:1 в зерновой системе. Графическая форма не выбирает значение без контекста."
+    },
+    {
+      "id": "E_UJ_ID",
+      "source_id": "S38",
+      "locator": "с.140,рис.6.5; с.235,Illustration Credits",
+      "witness_ids": [
+        "W_UJ_59"
+      ],
+      "kind": "source_assertion",
+      "description": "Источник рисунка явно определён как Dreyer1998,рис.76,№59. Номер55 из MacArthur относится к другому примеру."
+    },
+    {
+      "id": "E_UJ_LAYOUT",
+      "source_id": "S38",
+      "locator": "с.140,рис.6.5; вся опубликованная лицевая прорисовка",
+      "witness_ids": [
+        "W_UJ_59"
+      ],
+      "kind": "observed_fact",
+      "description": "На просмотренной прорисовке: отверстие вверху слева; слоноподобная фигура на трёхвершинном основании; ветвящийся мотив справа. Три графических мотива не равны трём языковым знакам. Древние резы по оригинальному фото не коллированы."
+    },
+    {
+      "id": "E_UJ_READING",
+      "source_id": "S39",
+      "locator": "с.118,текст и подпись рис.17.1",
+      "witness_ids": [
+        "W_UJ_59"
+      ],
+      "kind": "source_assertion",
+      "description": "Kahl относит рис.17.1 к №59; предлагает ꜣbw,Элефантина, и возможный детерминатив в основании. Деревья могут обозначать хозяйства/плантации. Это предложенные функции, не полное фонетическое чтение."
+    },
+    {
+      "id": "E_UJ_COMPOSITE",
+      "source_id": "S40",
+      "locator": "с.61,прим.79; с.62",
+      "witness_ids": [
+        "W_UJ_59"
+      ],
+      "kind": "source_assertion",
+      "description": "Jiménez-Serrano включает №59 в группу и предлагает один составной знак для Элефантины вместо слона с отдельным детерминативом. Оспаривает механизм при сохранении предполагаемого места."
+    },
+    {
+      "id": "E_UJ_DOMAIN",
+      "source_id": "S38",
+      "locator": "с.140,левый столбец; с.141",
+      "witness_ids": [
+        "W_UJ_59"
+      ],
+      "kind": "source_assertion",
+      "description": "Stauder допускает сочетание дерева с X как обозначение хозяйства/владения X, не требующее языковой фразы; ꜣbw названо возможным чтением с поздними параллелями. Современная интерпретация не устанавливает древнее произношение."
+    },
+    {
+      "id": "E_UJ_ESTATE",
+      "source_id": "S42",
+      "locator": "с.135,обсуждение рис.14.17",
+      "witness_ids": [
+        "W_UJ_59"
+      ],
+      "kind": "source_assertion",
+      "description": "Dreyer трактует растительно-животные сочетания как хозяйства предполагаемых царей-предшественников. Обсуждение относится к группе; фотографии без номера не подтверждают физическую идентичность №59."
+    },
+    {
+      "id": "E_UJ_DATE",
+      "source_id": "S41",
+      "locator": "с.642,метод; с.643,строки Hd-12953 и Hd-12954; с.644,интерпретация",
+      "witness_ids": [
+        "W_UJ_59"
+      ],
+      "kind": "source_assertion",
+      "description": "Два образца древесины камеры6 U-j дали4470±30 и4595±25BP. Опубликованные календарные интервалы расходятся; ярлык и время резьбы непосредственно не измерены."
+    },
+    {
+      "id": "E_UJ_CHRONOLOGY",
+      "source_id": "S43",
+      "locator": "Введение,первый абзац; прим.5",
+      "witness_ids": [
+        "W_UJ_59"
+      ],
+      "kind": "source_assertion",
+      "description": "База относит контекст U-j к Naqada IIIA1 около 3250 до н.э., ссылаясь на схему Hendrickx. Это датировка комплекса, не прямое измерение ярлыка."
     }
   ],
   "claims": [
@@ -1050,10 +1195,22 @@
         {
           "evidence_id": "E_URUK_ALT",
           "relation": "context"
+        },
+        {
+          "evidence_id": "E_UJ_READING",
+          "relation": "support"
+        },
+        {
+          "evidence_id": "E_UJ_COMPOSITE",
+          "relation": "support"
+        },
+        {
+          "evidence_id": "E_UJ_DOMAIN",
+          "relation": "support"
         }
       ],
       "alternative": "Ритуальный контекст может относиться к функции предмета без кодирования речи. Урук допускает семантическую идентификацию знака без установленного произношения; шумерская интерпретация корпуса остаётся предметом научного разногласия.",
-      "next_check": "Проверить чтение недешифрованной группы на новых независимых надписях. Для Урука: проверять конкретные фонетические и грамматические соответствия, не выводить их из современного имени знака."
+      "next_check": "Проверить чтение недешифрованной группы на новых независимых надписях. Для Урука: проверять конкретные фонетические и грамматические соответствия, не выводить их из современного имени знака. Для U-j: нумерованная фотография№59 и серия53–56,59–60; проверять значение, членение и функцию основания раздельно."
     },
     {
       "id": "C02",
@@ -1117,6 +1274,10 @@
         {
           "evidence_id": "E_KAR_STAMPS",
           "relation": "context"
+        },
+        {
+          "evidence_id": "E_UJ_LAYOUT",
+          "relation": "support"
         }
       ],
       "alternative": "Независимые подвески, техническое перекрытие, хранение вместе без совместного ношения. Для Градешницы: орнаментальная или эмблематическая композиция без записи речи. Для Караново: композиция могла выполнять иную функцию без штампования; материал переноса неизвестен.",
@@ -1171,10 +1332,22 @@
         {
           "evidence_id": "E_KAR_ALTERNATIVE",
           "relation": "support"
+        },
+        {
+          "evidence_id": "E_UJ_ID",
+          "relation": "support"
+        },
+        {
+          "evidence_id": "E_UJ_READING",
+          "relation": "support"
+        },
+        {
+          "evidence_id": "E_UJ_COMPOSITE",
+          "relation": "support"
         }
       ],
       "alternative": "Современные разночтения одного предмета могут объясняться повреждением и редакционными решениями. У Караново спор касается предшествующего уровня — границ единиц и языкового характера композиции.",
-      "next_check": "Независимо сверить обе таблички Фары и получить качественные изображения спорных знаков O.1920. Для Караново: зафиксировать конкурирующие сегментации и проверить их на независимой серии."
+      "next_check": "Независимо сверить обе таблички Фары и получить качественные изображения спорных знаков O.1920. Для Караново: зафиксировать конкурирующие сегментации и проверить их на независимой серии. Для U-j: нумерованная фотография№59 и серия53–56,59–60; проверять значение, членение и функцию основания раздельно."
     },
     {
       "id": "C05",
@@ -1233,6 +1406,10 @@
         },
         {
           "evidence_id": "E_URUK_METROLOGY",
+          "relation": "context"
+        },
+        {
+          "evidence_id": "E_UJ_ESTATE",
           "relation": "context"
         }
       ],
@@ -1308,6 +1485,14 @@
         },
         {
           "evidence_id": "E_URUK_METROLOGY",
+          "relation": "context"
+        },
+        {
+          "evidence_id": "E_UJ_READING",
+          "relation": "context"
+        },
+        {
+          "evidence_id": "E_UJ_DATE",
           "relation": "context"
         }
       ],
