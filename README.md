@@ -1,5 +1,23 @@
 # Ancient Text Research Kit
 
+[English](#english-overview) · [Русский](#описание-на-русском)
+
+## English overview
+
+Ancient Text Research Kit is an open, AI-assisted research lab and a reusable set of agent instructions for studying ancient signs, texts, religious ideas and ritual practices. Its goal is to build and test explanations of how these signs conveyed meaning and how their use changed over time.
+
+The study starts with the earliest surviving evidence and follows overlapping regional timelines. The method combines analysis of original images where available, attempts at decipherment, comparison and synthesis. Each case distinguishes visible marks, published readings, our own reading hypotheses, and interpretations of meaning or function. Source references, alternative explanations and unresolved questions remain part of the record.
+
+The repository includes English agent instructions, research templates, an evidence registry, a static website, and an evolving comparative study currently written in Russian. You can follow the research, inspect the evidence, or adapt the kit for your own investigation. The main synthesis is kept within 30 rendered pages, with detailed object studies linked separately.
+
+[Read the study (Russian)](study/reports/main_research.md) · [Use the agent instructions](AGENTS.md) · [Explore the templates](templates/cycle.md)
+
+To build and check the local reader, use Python 3.9 or newer and the [commands below](#прочитать-и-проверить). These local tools need no extra packages or API key. An agent continuing the research needs access to the relevant sources.
+
+Original code and instructions are licensed under MIT; original research prose under CC BY 4.0. Third-party editions, translations and images retain their own terms. See [licensing and attribution](LICENSING.md).
+
+## Описание на русском
+
 Лаборатория для построения проверяемой модели древних знаков, текстов, религиозных представлений и практик через анализ оригиналов, расшифровку, сравнение и синтез. В комплекте метод, инструкции агенту и пополняемое исследование на русском языке. Рабочая редакция 0.2.2, 7 октября 2026.
 
 [Читать на сайте](https://dorsem.github.io/ancient-text-research-kit/) · [Важные выводы и основания](https://dorsem.github.io/ancient-text-research-kit/evidence.html) · [Репозиторий](https://github.com/dorsem/ancient-text-research-kit)
@@ -39,7 +57,3 @@ python3 -m unittest discover -s tests -v
 Внешние фотографии, музейные PDF и пользовательский снимок не включены в этот переносимый пакет. Сохранены ссылки и точные страницы. Некоторые архивные карточки описывают проверки локальных копий в исходной лаборатории; это журнал прежних действий, а не заявление о наличии этих файлов здесь. [Происхождение примера](docs/PROVENANCE.md).
 
 [Как обновлять пакет и избежать двух расходящихся версий](docs/UPDATES.md).
-
-## English quick start
-
-A portable, Russian-language research example and agent protocol for building and testing an explanatory model of ancient signs, meanings and religious practices through original-image analysis, decipherment, comparison and synthesis. A universal ancient system is not assumed. Read the study, run the three commands above, or give AGENTS.md to your own agent. New interpretations require source locations, alternatives, and an explicit review record. Code and agent instructions are MIT; original research text is CC BY 4.0, with third-party material excluded from that grant. GitHub Pages rebuilds after validated changes to the default branch. No autonomous literature monitoring is included.
