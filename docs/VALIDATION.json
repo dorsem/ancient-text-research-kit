@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-07",
+  "date": "2026-10-08",
   "status": "local_verification_passed",
   "tests_passed": 21,
   "python": "3.9.6",
@@ -18,7 +18,8 @@
     "O1920 42 addressed lines",
     "transplanted main-study links resolve from evidence page",
     "21 Uruk ATF lines match reader table including damage",
-    "conditional Uruk arithmetic result matches saved source hash"
+    "conditional Uruk arithmetic result matches saved source hash",
+    "16 P001080 ATF records exactly match full reader table and fetched CDLI text"
   ],
   "content_acceptance": {
     "C02": "Read generated evidence view: fig14 p210 versus fig15 p211, source hypothesis versus visible overlap, limits and next check remain distinct.",
@@ -28,10 +29,12 @@
     "Uruk": "Selected P000928 case compared with photo and lineart; exact readings and damage preserved in card and synthesis. Sign identification, language and administrative function distinguished. P001080 catalogue control, photo overview only. Separate AI source review, not fully blind or human approval.",
     "chronology_correction": "Replaced stale statement that Tartaria object analysis was not done with links to completed cards; no new decipherment claimed.",
     "overall_goal": "PROJECT, AGENTS, METHOD, templates and main synthesis implement owner clarification: explanatory model emerges from originals, decipherment attempts, analysis and synthesis; shared ancient system is not assumed. Existing C01-C06 presented as working model, exact readings and all source/evidence/claim records unchanged.",
-    "next_model_test": "U-j numberedphoto59 and series53–56,59–60 plus independent early Elephantine spellings to test segmentation and classification; Uruk printedATU5 and subtotal scope remain open.",
+    "next_model_test": "Original53 lowerzone and Dreyer1998plate29; VAT15014 printedATU5 comment and metrologically comparable preserved control with independently established terminal-field role.",
     "Uruk_full": "All21 edited fields surveyed against photo/lineart; source known beforehand. Complete catalogue text and Russian notation glosses, damage and lexical limits preserved. Arithmetic39(all)/38(first10), conditional reverse38or26, and post-hoc exclusion hypothesis with counterarguments are reproducible. No full expert collation claimed.",
     "reader_links": "Fixed source-relative links when C01–C06 text moves into evidence.html; regression tests cover parent, sibling, source-fragment and external targets. Existing all-site link test caught the issue before publication.",
-    "Abydos_Uj_59": "Complete published facsimile and sourcecredit inspected; publication59 distinguished from55 and museuminventory. Semantic candidate domain/place kept separate from phonetic reading and originalphoto collation. Kahl versus Serrano mechanisms, contextual wooddating and all graphic motifs retained. Separate AI checked witness draft; date-source query resolved directly against Regulski database, not Oxfordchapter."
+    "Abydos_Uj_59": "Complete published facsimile and sourcecredit inspected; publication59 distinguished from55 and museuminventory. Semantic candidate domain/place kept separate from phonetic reading and originalphoto collation. Kahl versus Serrano mechanisms, contextual wooddating and all graphic motifs retained. Separate AI checked witness draft; date-source query resolved directly against Regulski database, not Oxfordchapter.",
+    "Uruk_P001080": "Complete16-record catalogue reading, full photograph and lineart survey, selected field comparison; sourceknown notblind. B coefficient and grain-unit size distinguished; conditional20 N28=5 N39b depends on published comparative metrology and later IM23426. Separate AI review correction integrated; not human approval. Not a valid confirmation of VAT15014 lastfield exclusion.",
+    "Abydos_Uj_followup": "Separate AI inspected full numbered59/60 drawing and Morenz75. Published discrepancy on53 prioritizes originalphoto collation, not established ancient variation. Original59 photograph and early independent Elephantine spelling not obtained."
   },
   "limitations": [
     "No model-independent scholarly review of all portable archive cards. Registry claims remain draft.",
@@ -40,7 +43,8 @@
     "Gradeshnitsa: original excavation photos 68-69 not obtained; exterior web photograph has incomplete provenance. No established linguistic translation.",
     "Karanovo: individual museum inventory and direct object dating not obtained; two level numberings retained. No established language, translation, matched ancient impression or proven ritual function. Modern photo provenance incomplete.",
     "Uruk: precise precedence within UrukIV, object counted, operation and pronunciation not established. Alternative absolute chronologies retained; P001080 not independently collated; actual ATU5 plate/comment and Szarzynska1993 not read; damaged fields not independently collated, total scope unresolved.",
-    "Abydos U-j59: original numbered photograph, reverse, museuminventory, exactmaterial anddimensions not verified. Facsimile source is explicit. Whole-label linguistic reading, royalname andreligious content not established; direct dating concerns wood, notlabel."
+    "Abydos U-j59: original numbered photograph, reverse, museuminventory, exactmaterial anddimensions not verified. Facsimile source is explicit. Whole-label linguistic reading, royalname andreligious content not established; direct dating concerns wood, notlabel.",
+    "VAT15008 full image survey is not full expert signcollation; damaged reverse total not reconstructed. Fraction ratios depend on comparison with later IM23426. U-j53 discrepancy unresolved without original photograph."
   ],
   "source_docx": {
     "revision": "005",
@@ -49,22 +53,22 @@
   },
   "privacy": "No source PDF, photograph, personal absolute path, API credential, Foundry implementation or local database included.",
   "publication_authorization": "Owner approved dorsem repository and ongoing verified updates; MIT + CC BY 4.0 explicitly approved.",
-  "revision": "011",
-  "version": "0.2.2",
+  "revision": "012",
+  "version": "0.2.3",
   "pagination": {
-    "revision": "011",
+    "revision": "012",
     "renderer": "WeasyPrint66.0",
     "format": "A4,18mm margins,body11pt,table9.5pt; repository print CSS",
     "pages": 20,
     "max_pages": 30,
     "within_limit": true,
     "source": "study/reports/main_research.md",
-    "source_sha256": "2ebf4ac3677d559c0d93c8fa45a0aea2046cdb08ae1f5bf7426ae10fe1a2e2f9",
+    "source_sha256": "9096c21ab12bc6b3e8be997f6e188e077fab8624cf70e20fbddc972d2f9e2339",
     "html": "site/study/reports/main_research.html",
-    "html_sha256": "ac41988b8edd08a38a7fcb9eeb4751c917c636face679c605b2a7ce2847807c1",
-    "qa_pdf_sha256": "862d72cb821c321382457e4d24df6726560a0bd4580cf6785d1a10320439ae90",
+    "html_sha256": "fc3be708e47ad28366d1cbfdfd6a0ddd88f8aa1357a1762b76ccdacab2e27f1b",
+    "qa_pdf_sha256": "e983a6b4622682f7edd061ba959a0e45d046d901dd7725743d5c18045ae1d678",
     "scope": "Main synthesis including references and image links; detailed cards and external images not embedded. QA PDF notdistributed.",
-    "visual_review": "All20 main pages and4 new witness pages viewed on contact sheets; main13 and witness2–3 inspected fullsize. After final copyedit, changed sheets and pages inspected again. No clippedtext, overlappingcontent or unreadable transliteration observed."
+    "visual_review": "All20 main pages and4 VAT15008 pages viewed on contact sheets; main12,14 and witness3 inspected fullsize. Final wording adjustment re-rendered and inspected. No clippedtext or overlap observed."
   },
   "previous_remote_checks": {
     "run": "https://github.com/dorsem/ancient-text-research-kit/actions/runs/37455716889",
@@ -148,6 +152,21 @@
       "qa_pdf_sha256": "9f002b917d2d7819c00a971a182da7e7e79d3bb85ae4a370deb0debbc1da9e0e",
       "scope": "Main synthesis including references and image links; detailed cards and external images not embedded; QA PDF not distributed.",
       "visual_review": "All18 main pages and7 full-analysis appendix pages viewed on contact sheets; main12 and appendix3,6 checked full-size. Tables/readings legible with no clipped text or overlap observed."
+    },
+    {
+      "revision": "011",
+      "renderer": "WeasyPrint66.0",
+      "format": "A4,18mm margins,body11pt,table9.5pt; repository print CSS",
+      "pages": 20,
+      "max_pages": 30,
+      "within_limit": true,
+      "source": "study/reports/main_research.md",
+      "source_sha256": "2ebf4ac3677d559c0d93c8fa45a0aea2046cdb08ae1f5bf7426ae10fe1a2e2f9",
+      "html": "site/study/reports/main_research.html",
+      "html_sha256": "ac41988b8edd08a38a7fcb9eeb4751c917c636face679c605b2a7ce2847807c1",
+      "qa_pdf_sha256": "862d72cb821c321382457e4d24df6726560a0bd4580cf6785d1a10320439ae90",
+      "scope": "Main synthesis including references and image links; detailed cards and external images not embedded. QA PDF notdistributed.",
+      "visual_review": "All20 main pages and4 new witness pages viewed on contact sheets; main13 and witness2–3 inspected fullsize. After final copyedit, changed sheets and pages inspected again. No clippedtext, overlappingcontent or unreadable transliteration observed."
     }
   ]
 }

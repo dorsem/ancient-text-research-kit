@@ -1,0 +1,10 @@
+{
+  "accessed": "2026-10-08",
+  "purpose": "Identity of inspected source versions, not validation of readings; external files link-only.",
+  "sha256": {
+    "P001080.jpg": "821644f230b36511b5e40462bbd1278733bb61f99ea3a2b1a2372d9b9c1cd72f",
+    "P001080_l.jpg": "54ee7636ee8d5cd609518a0ed3bf7fa249ab7affb7f4be6c1f920b1aa99405e8",
+    "englund1987a.pdf": "63b59557ffeebfd9a4f68146a64407e5ded9810c8e69372d1fd7f8727d9a8d56",
+    "1080.html": "5c99b922e489c09336eecc790224b6f133f1eab86574f79a036eac482816b34d"
+  }
+}

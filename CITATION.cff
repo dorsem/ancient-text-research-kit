@@ -5,8 +5,8 @@ type: software
 authors:
   - name: "dorsem"
     website: "https://github.com/dorsem"
-version: "0.2.2"
-date-released: "2026-10-07"
+version: "0.2.3"
+date-released: "2026-10-08"
 repository-code: "https://github.com/dorsem/ancient-text-research-kit"
 url: "https://dorsem.github.io/ancient-text-research-kit/"
 license:
